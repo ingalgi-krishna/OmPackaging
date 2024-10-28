@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/Navbar.css"; // Make sure the path is correct for your project structure
+import "../Css/Navbar.css"; // Make sure the path is correct for your project structure
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
