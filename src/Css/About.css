@@ -74,12 +74,12 @@ blockquote {
 }
 
 .vision-image {
-  background-image: url("vision.png");
+  background-image: url("public/vision.png");
   width: 100%;
 }
 
 .about-image {
-  background-image: url("OmIndia.jpg");
+  background-image: url("public/OmIndia.png");
   width: 100%;
   margin-bottom: 10px;
   border-radius: 5px;
