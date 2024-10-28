@@ -1,0 +1,143 @@
+:root {
+  --black: #000000ff;
+  --oxford-blue: #14213dff;
+  --orange-web: #fca311ff;
+  --platinum: #e5e5e5ff;
+  --white: #ffffffff;
+}
+
+/* General styling for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--oxford-blue); /* Updated to oxford blue */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 10vh;
+  z-index: 100;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+/* Logo styling */
+.navbar-logo {
+  border-radius: 50%;
+  width: 40px;
+  height: auto;
+}
+
+/* Hamburger icon for mobile */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--white); /* White color for the hamburger icon */
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Navigation Links */
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-nav li {
+  margin-left: 20px;
+}
+
+.navbar-nav li a {
+  color: var(--white); /* White text for links */
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+  border-bottom: 3px solid var(--orange-web);
+  border-radius: 4px;
+}
+
+/* "Get A Quote" button styling */
+.quote-button {
+  background-color: var(--orange-web); /* Orange Web for the button */
+  color: var(--white); /* White text */
+  padding: 8px 15px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.quote-button:hover {
+  background-color: var(--black); /* Black on hover */
+}
+
+/* Display buttons for login and demo */
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-buttons .button {
+  background-color: var(--orange-web); /* Orange Web for login/demo buttons */
+  color: var(--white);
+  padding: 8px 15px;
+  margin-left: 15px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.navbar-buttons .demo {
+  background-color: var(--oxford-blue); /* Oxford Blue for the demo button */
+}
+
+.navbar-buttons .button:hover {
+  opacity: 0.9; /* Slight opacity change on hover */
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: var(--oxford-blue); /* Oxford blue for mobile menu */
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .navbar-nav.open {
+    display: flex;
+  }
+
+  .navbar-nav li {
+    margin: 15px 0;
+  }
+
+  .navbar-buttons {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .navbar-buttons.open {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    background-color: var(--oxford-blue);
+    padding: 20px 0;
+  }
+}

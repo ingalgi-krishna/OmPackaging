@@ -1,0 +1,174 @@
+:root {
+  --black: #000000ff;
+  --oxford-blue: #14213dff;
+  --orange-web: #fca311ff;
+  --platinum: #e5e5e5ff;
+  --white: #ffffffff;
+}
+
+/* Main container for the hero section */
+.hero-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("packaging.jpg"); /* Replace with your background image path */
+  background-size: cover;
+  text-align: center;
+}
+
+/* Content inside the hero section */
+.hero-content {
+  /* margin: 6rem; */
+  max-width: 100%;
+  color: var(--white); /* White text */
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: var(--orange-web); /* Orange for the heading */
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: var(--white); /* White text for subtitle */
+}
+
+.hero-description {
+  font-size: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 40px;
+  line-height: 1.8;
+  color: var(--platinum); /* Platinum (light grey) for the description */
+  max-width: 800px; /* Restrict the width to avoid text overflow */
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Spacing between the buttons */
+  flex-wrap: wrap; /* Allows buttons to wrap on small screens */
+}
+
+.button-primary,
+.button-secondary {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button-primary {
+  background-color: var(--orange-web); /* Orange for the primary button */
+  color: var(--white); /* White text */
+  transition: background-color 0.3s ease;
+}
+
+.button-primary:hover {
+  background-color: rgb(183, 121, 22); /* Black on hover */
+}
+
+.button-secondary {
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--white); /* White border */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-secondary:hover {
+  background-color: var(--white);
+  color: var(--black); /* Black text on hover */
+}
+
+/* Responsive Design for Medium Screens */
+@media (max-width: 1024px) {
+  .hero-content {
+    margin: 4rem;
+  }
+
+  .hero-description {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+  }
+
+  .button-primary,
+  .button-secondary {
+    font-size: 0.9rem;
+  }
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .hero-content {
+    margin: 2rem;
+    padding: 0 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .hero-description {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    max-width: 100%; /* Ensure it doesn't exceed screen width */
+  }
+
+  .hero-buttons {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 15px;
+  }
+
+  .button-primary,
+  .button-secondary {
+    font-size: 0.9rem;
+    width: 100%; /* Full width for better touch interaction */
+    padding: 10px 15px;
+  }
+}
+
+/* Responsive Design for Extra Small Screens */
+@media (max-width: 480px) {
+  .hero-container {
+    width: 100vw;
+  }
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.4rem;
+  }
+
+  .hero-description {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .button-primary,
+  .button-secondary {
+    font-size: 0.85rem;
+    width: 100%; /* Full width for small screens */
+  }
+}
