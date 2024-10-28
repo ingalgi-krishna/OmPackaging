@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/Footer.css"; // Ensure the path is correct
+import "../Css/Footer.css"; // Ensure the path is correct
 
 function Footer() {
   return (

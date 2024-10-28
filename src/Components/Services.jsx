@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/OurServices.css"; // Ensure the path to your CSS file is correct
+import "../Css/OurServices.css"; // Ensure the path to your CSS file is correct
 
 const services = [
   {

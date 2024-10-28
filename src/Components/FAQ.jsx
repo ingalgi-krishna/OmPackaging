@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css"; // Import Toastify CSS
-import "../css/FAQ.css"; // Ensure the path to your CSS file is correct
+import "../Css/FAQ.css"; // Ensure the path to your CSS file is correct
 
 function ContactAndFAQ() {
   const [formData, setFormData] = useState({

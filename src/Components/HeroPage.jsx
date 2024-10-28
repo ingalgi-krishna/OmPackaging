@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/HeroPage.css"; // Ensure the path is correct
+import "../Css/HeroPage.css"; // Ensure the path is correct
 
 function HeroPage() {
   return (
