@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Itech System and Solutions - Innovative Technology Solutions",
+  title: "Om India - Innovative Technology Solutions",
   description: "Professional technology solutions and services for modern businesses. Expert consulting, development, and system integration.",
   keywords: "technology solutions, IT consulting, system integration, software development",
 };

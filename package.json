@@ -1,5 +1,5 @@
 {
-  "name": "itech-website",
+  "name": "om-india-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
     "framer-motion": "^12.23.12",
     "lucide-react": "^0.539.0",
     "mongoose": "^8.17.1",
-    "next": "15.4.6",
+    "next": "^15.5.2",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },

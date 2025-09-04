@@ -5,7 +5,7 @@ import { MapSection } from '@/components/sections/map-section';
 import contactData from '@/data/contact.json';
 
 export const metadata = {
-    title: 'Contact Us - Itech System and Solutions',
+    title: 'Contact Us - Om India',
     description: 'Get in touch with us for packaging solutions, quotes, and support. Multiple office locations across India.',
 };
 

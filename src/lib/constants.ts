@@ -5,7 +5,7 @@ export const BRAND_COLORS = {
 } as const;
 
 export const COMPANY_INFO = {
-    name: 'Itech System and Solutions',
+    name: 'Om India',
     tagline: 'Premium Industrial Packaging Solutions',
     email: 'info@omindiagroups.com',
     phone: '+919923142533',
@@ -31,11 +31,11 @@ export const COMPANY_INFO = {
         sunday: 'Sunday: Closed'
     },
     socialMedia: {
-        linkedin: 'https://linkedin.com/company/itech-packaging',
-        twitter: 'https://twitter.com/itechpackaging',
-        facebook: 'https://facebook.com/itechpackaging',
-        instagram: 'https://instagram.com/itechpackaging',
-        youtube: 'https://youtube.com/itechpackaging'
+        linkedin: 'https://linkedin.com/company/Om India-packaging',
+        twitter: 'https://twitter.com/Om Indiapackaging',
+        facebook: 'https://facebook.com/Om Indiapackaging',
+        instagram: 'https://instagram.com/Om Indiapackaging',
+        youtube: 'https://youtube.com/Om Indiapackaging'
     },
     stats: {
         clients: '1000+',

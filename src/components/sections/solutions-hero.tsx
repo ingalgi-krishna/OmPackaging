@@ -71,7 +71,7 @@ export function SolutionsHero({ data }: SolutionsHeroProps) {
                             variant="outline"
                             size="lg"
                             className="border-white text-white hover:bg-white hover:!text-[#002B5B]"
-                            onClick={() => window.open('/downloads/itech-company-profile.pdf', '_blank')}
+                            onClick={() => window.open('/downloads/om-india-company-profile.pdf', '_blank')}
                         >
                             <Download size={18} className="mr-2" />
                             Download Catalog

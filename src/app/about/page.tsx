@@ -8,8 +8,8 @@ import aboutData from '@/data/about.json';
 import homeData from '@/data/home.json';
 
 export const metadata = {
-    title: 'About Us - Itech System and Solutions',
-    description: 'Learn about our journey, mission, and the team behind Itech System and Solutions industrial packaging services.',
+    title: 'About Us - Om India',
+    description: 'Learn about our journey, mission, and the team behind Om India industrial packaging services.',
 };
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
                 title="Learn More About Our Company"
                 description="Download our comprehensive company brochure to learn about our history, capabilities, and commitment to excellence in industrial packaging."
                 downloadText="Download Company Profile"
-                fileName="itech-company-profile.pdf"
+                fileName="Om India-company-profile.pdf"
                 variant="default"
             />
             <TeamSection

@@ -18,7 +18,7 @@ export function BrochureStrip({
     description = "Get detailed information about our packaging solutions, services, and capabilities in one comprehensive document.",
     downloadText = "Download Brochure",
     fileSize = "2.5 MB",
-    fileName = "itech-company-profile.pdf",
+    fileName = "om-india-company-profile.pdf",
     variant = 'default'
 }: BrochureStripProps) {
 

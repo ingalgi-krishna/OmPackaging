@@ -25,7 +25,7 @@ import { Container } from '@/components/ui/container';
 import { Button } from '@/components/ui/button';
 import { NAV_LINKS, COMPANY_INFO } from '@/lib/constants';
 import { cn } from '@/lib/utils';
-
+import Image from "next/image";
 // --- Search Modal Component ---
 interface SearchModalProps {
     isOpen: boolean;
@@ -287,7 +287,7 @@ function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                                                     variant="outline"
                                                     className="text-xs px-3 py-1 h-auto border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
                                                     onClick={() => {
-                                                        window.open('/downloads/itech-company-profile.pdf', '_blank');
+                                                        window.open('/downloads/om-india-company-profile.pdf', '_blank');
                                                         onClose();
                                                     }}
                                                 >
@@ -356,7 +356,7 @@ export function Navbar() {
                             </div>
                             <div className="h-4 w-px bg-white/30" />
                             <div className="flex items-center space-x-1 text-xs">
-                                <span>ISPM-15 Certified | GST: {COMPANY_INFO.businessDetails.gstNumber}</span>
+                                <span>GST: {COMPANY_INFO.businessDetails.gstNumber}</span>
                             </div>
                         </div>
                     </div>
@@ -381,9 +381,15 @@ export function Navbar() {
                                 whileHover={{ scale: 1.05 }}
                                 transition={{ duration: 0.2 }}
                             >
-                                <div className="w-10 h-10 lg:w-12 lg:h-12 bg-gradient-to-br from-picton to-[#002B5B] rounded-xl flex items-center justify-center shadow-lg">
-                                    <span className="text-white font-bold text-lg lg:text-xl">I</span>
-                                </div>
+
+                                <Image
+                                    src="/logo/logo.png"   // replace with actual logo path
+                                    alt="Logo"
+                                    width={32}             // controls rendered size
+                                    height={32}
+                                    className="object-contain lg:w-8 lg:h-8"
+                                />
+
                                 <div className="absolute -inset-1 bg-gradient-to-br from-picton/20 to-[#002B5B]/20 rounded-xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             </motion.div>
                             <div className="hidden sm:block">
@@ -395,7 +401,7 @@ export function Navbar() {
                                 </div>
                             </div>
                             <div className="sm:hidden">
-                                <div className="text-lg font-bold text-[#002B5B]">Itech</div>
+                                <div className="text-lg font-bold text-[#002B5B]">Om India</div>
                             </div>
                         </Link>
 
@@ -464,7 +470,7 @@ export function Navbar() {
                                 variant="outline"
                                 size="sm"
                                 className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
-                                onClick={() => window.open('/downloads/itech-company-profile.pdf', '_blank')}
+                                onClick={() => window.open('/downloads/om-india-company-profile.pdf', '_blank')}
                             >
                                 <FileText size={16} className="mr-2" />
                                 Download Brochure
@@ -564,7 +570,7 @@ export function Navbar() {
                                                 size="sm"
                                                 className="bg-[#002B5B] text-white hover:bg-picton"
                                                 onClick={() => {
-                                                    window.open('/downloads/itech-company-profile.pdf', '_blank');
+                                                    window.open('/downloads/om-india-company-profile.pdf', '_blank');
                                                     closeAllMenus();
                                                 }}
                                             >
