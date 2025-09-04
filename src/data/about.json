@@ -1,0 +1,137 @@
+{
+    "overview": {
+        "title": "About Itech System and Solutions",
+        "subtitle": "Leading the Industrial Packaging Industry",
+        "description": "Om India Total Packaging Solutions is a dedicated leader in the packaging industry, committed to integrating innovative technologies, sustainable practices, and a customer-centric approach. Our focus on delivering cutting-edge packaging solutions not only enhances product safety and brand visibility but also contributes to a more sustainable future in packaging. We strive to meet the evolving needs of our clients while maintaining the highest standards of quality and environmental responsibility.",
+        "established": "2010",
+        "experience": "13+ Years",
+        "clients": "1000+",
+        "projects": "5000+"
+    },
+    "stats": [
+        {
+            "id": "1",
+            "value": "20000+",
+            "label": "Projects Done"
+        },
+        {
+            "id": "2",
+            "value": "200+",
+            "label": "Current Project Activities"
+        },
+        {
+            "id": "3",
+            "value": "150+",
+            "label": "Skilled Experts"
+        },
+        {
+            "id": "4",
+            "value": "300+",
+            "label": "Happy Clients"
+        }
+    ],
+    "mission": {
+        "title": "Our Mission",
+        "description": "To provide superior packaging solutions that protect products, enhance brand value, and contribute to sustainable business practices while building lasting partnerships with our clients."
+    },
+    "vision": {
+        "title": "Our Vision",
+        "description": "To be the most trusted and innovative packaging solutions provider globally, setting industry standards for quality, sustainability, and customer satisfaction."
+    },
+    "boardOfDirectors": [
+        {
+            "id": "1",
+            "name": "Shivkumar Gurav",
+            "position": "Founder & CEO",
+            "company": "Om India Group",
+            "bio": "Visionary leader with extensive experience in industrial packaging and business development.",
+            "expertise": [
+                "Business Strategy",
+                "Industry Leadership",
+                "Strategic Planning"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Priyadarshani Gurav",
+            "position": "Co-Founder & COO",
+            "company": "Om India Group",
+            "bio": "Operational excellence expert driving efficiency and quality across all business operations.",
+            "expertise": [
+                "Operations Management",
+                "Quality Control",
+                "Business Operations"
+            ]
+        }
+    ],
+    "expertTeam": [
+        {
+            "id": "3",
+            "name": "",
+            "position": "Technical Director",
+            "company": "",
+            "bio": "Coming soon - Join our growing team of packaging experts.",
+            "expertise": [],
+            "placeholder": true
+        },
+        {
+            "id": "4",
+            "name": "",
+            "position": "Sales Manager",
+            "company": "",
+            "bio": "Coming soon - Join our growing team of packaging experts.",
+            "expertise": [],
+            "placeholder": true
+        },
+        {
+            "id": "5",
+            "name": "",
+            "position": "Quality Manager",
+            "company": "",
+            "bio": "Coming soon - Join our growing team of packaging experts.",
+            "expertise": [],
+            "placeholder": true
+        },
+        {
+            "id": "6",
+            "name": "",
+            "position": "Production Manager",
+            "company": "",
+            "bio": "Coming soon - Join our growing team of packaging experts.",
+            "expertise": [],
+            "placeholder": true
+        }
+    ],
+    "timeline": [
+        {
+            "year": "2010",
+            "title": "Company Founded",
+            "description": "Started operations with a focus on corrugated packaging solutions."
+        },
+        {
+            "year": "2013",
+            "title": "Expansion",
+            "description": "Expanded into specialized industrial packaging and protective materials."
+        },
+        {
+            "year": "2016",
+            "title": "ISO Certification",
+            "description": "Achieved ISO 9001:2015 certification for quality management systems."
+        },
+        {
+            "year": "2019",
+            "title": "Technology Upgrade",
+            "description": "Invested in state-of-the-art manufacturing equipment and automated systems."
+        },
+        {
+            "year": "2021",
+            "title": "Sustainability Initiative",
+            "description": "Launched eco-friendly packaging line and sustainability programs."
+        },
+        {
+            "year": "2023",
+            "title": "Market Leadership",
+            "description": "Became the preferred packaging partner for 1000+ companies across various industries."
+        }
+    ]
+}

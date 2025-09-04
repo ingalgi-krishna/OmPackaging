@@ -1,0 +1,65 @@
+{
+    "hero": {
+        "title": "Join Our Team at Om India",
+        "subtitle": "Empowering Innovation, Embracing Diversity, and Fostering Growth",
+        "description": "At Om India ~ Total Packaging Solutions, we believe that our people are our greatest asset. As a leading multinational company in the packaging industry, we are committed to creating innovative solutions that meet the diverse needs of our clients around the globe. Our success is driven by a talented and dedicated workforce, and we are always on the lookout for passionate individuals who share our vision.",
+        "welcomeMessage": "You are most welcome"
+    },
+    "whyWorkWithUs": {
+        "title": "Why Work With Us?",
+        "values": [
+            {
+                "title": "Embracing Diversity",
+                "description": "We foster an inclusive environment where a diverse workforce drives creativity. Every employee is valued and empowered to share their unique perspective.",
+                "icon": "Users"
+            },
+            {
+                "title": "Professional Development",
+                "description": "We prioritize your growth with professional development programs, mentorship, and training to help you enhance your skills and advance your career.",
+                "icon": "TrendingUp"
+            },
+            {
+                "title": "Collaborative Work Environment",
+                "description": "Our collaborative culture encourages open communication and teamwork. You'll work with talented professionals dedicated to achieving shared goals.",
+                "icon": "Users"
+            },
+            {
+                "title": "Global Impact",
+                "description": "Join a team making a global impact through sustainable and responsible packaging solutions, helping to create a better future for communities worldwide.",
+                "icon": "Globe"
+            }
+        ]
+    },
+    "missionStatement": {
+        "title": "Join Us in Shaping the Future of Packaging",
+        "description": "At Om India ~ Total Packaging Solutions, we are more than just a company; we are a community of innovators, creators, and problem-solvers. If you are ready to make a difference and grow your career in a dynamic and supportive environment, we want to hear from you!",
+        "tagline": "Om India ~ Total Packaging Solutions – Where Your Career Takes Shape."
+    },
+    "applicationProcess": {
+        "title": "How to Apply for Job at Om India?",
+        "subtitle": "If you are interested, Please apply for job at Om India with following steps",
+        "steps": [
+            {
+                "step": 1,
+                "title": "Send Resume",
+                "description": "Send resume on hr@omindiagroups.com",
+                "email": "hr@omindiagroups.com"
+            },
+            {
+                "step": 2,
+                "title": "Interview",
+                "description": "Participate in our interview process to discuss your experience and fit for the role."
+            },
+            {
+                "step": 3,
+                "title": "Documents Submission & Verification",
+                "description": "Submit required documents for verification and background check."
+            },
+            {
+                "step": 4,
+                "title": "Joining",
+                "description": "Complete the onboarding process and start your journey with Om India."
+            }
+        ]
+    }
+}

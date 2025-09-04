@@ -1,0 +1,373 @@
+{
+    "hero": {
+        "title": "Comprehensive Packaging Solutions",
+        "subtitle": "Innovative packaging solutions designed to meet diverse industrial requirements with quality, efficiency, and reliability.",
+        "description": "From seaworthy wooden boxes to specialized industrial packaging, we provide end-to-end solutions for all your packaging needs.",
+        "primaryCTA": "Get Custom Quote",
+        "secondaryCTA": "Download Catalog",
+        "stats": [
+            {
+                "value": "1000+",
+                "label": "Satisfied Clients"
+            },
+            {
+                "value": "21+",
+                "label": "Packaging Solutions"
+            },
+            {
+                "value": "24/7",
+                "label": "Customer Support"
+            }
+        ]
+    },
+    "categories": [
+        {
+            "id": "wooden-packaging",
+            "title": "Wooden Packaging Solutions",
+            "description": "Professional wooden packaging solutions for heavy machinery, export, and industrial applications.",
+            "icon": "Package",
+            "services": [
+                {
+                    "id": "seaworthy",
+                    "title": "Seaworthy Wooden Box Packaging",
+                    "description": "Marine-grade wooden boxes designed for international shipping and harsh environmental conditions with ISPM-15 compliance and superior protection.",
+                    "features": [
+                        "Marine-grade construction",
+                        "ISPM-15 heat treatment certified",
+                        "Moisture resistant design",
+                        "Custom dimensions available",
+                        "Heavy machinery protection",
+                        "Export documentation included"
+                    ],
+                    "image": "/solutions/seaworthy.png"
+                },
+                {
+                    "id": "wooden-crates",
+                    "title": "Wooden Crates",
+                    "description": "Versatile wooden crates for various industrial and commercial packaging applications with customizable designs and sizes.",
+                    "features": [
+                        "Versatile design options",
+                        "Multiple size configurations",
+                        "Easy assembly and disassembly",
+                        "Reusable construction",
+                        "Cost-effective solution",
+                        "Standard and custom sizes"
+                    ],
+                    "image": "/solutions/wooden_crates.png"
+                },
+                {
+                    "id": "industrial-machinery-boxes",
+                    "title": "Industrial Heavy Machinery Packaging Boxes",
+                    "description": "Heavy-duty wooden packaging specifically designed for large industrial machinery and equipment with reinforced construction.",
+                    "features": [
+                        "Reinforced corner construction",
+                        "Shock absorption features",
+                        "Custom foam inserts available",
+                        "Heavy-duty hardware",
+                        "Machinery-specific design",
+                        "Professional installation"
+                    ],
+                    "image": "/solutions/industrial.png"
+                },
+                {
+                    "id": "plywood-boxes",
+                    "title": "Plywood Boxes Packaging",
+                    "description": "Lightweight yet strong plywood boxes for efficient packaging and shipping solutions with excellent strength-to-weight ratio.",
+                    "features": [
+                        "Lightweight construction",
+                        "High strength-to-weight ratio",
+                        "Smooth surface finish",
+                        "Easy handling",
+                        "Cost-effective",
+                        "Multiple thickness options"
+                    ],
+                    "image": "/solutions/plywood.png"
+                },
+                {
+                    "id": "small-packaging-boxes",
+                    "title": "Small Packaging Boxes",
+                    "description": "Compact and efficient small packaging boxes for lightweight items and consumer goods with versatile design options.",
+                    "features": [
+                        "Compact design",
+                        "Multiple size options",
+                        "Easy assembly",
+                        "Cost-effective",
+                        "Lightweight construction",
+                        "Bulk quantity available"
+                    ],
+                    "image": "/solutions/small_packaging.png"
+                },
+                {
+                    "id": "pinewood-export",
+                    "title": "Pinewood Export Packaging",
+                    "description": "High-quality pinewood packaging solutions specifically designed for export applications with international compliance.",
+                    "features": [
+                        "Export-grade quality",
+                        "International compliance",
+                        "Durability tested",
+                        "Custom branding available",
+                        "Professional finish",
+                        "Documentation support"
+                    ],
+                    "image": "/solutions/Pinewood.png"
+                },
+                {
+                    "id": "rubber-wood-boxes",
+                    "title": "Rubber Wood Box Packaging",
+                    "description": "Sustainable rubber wood packaging solutions offering excellent strength and environmental benefits with eco-friendly properties.",
+                    "features": [
+                        "Eco-friendly material",
+                        "Sustainable sourcing",
+                        "High strength properties",
+                        "Natural resistance",
+                        "Smooth finish",
+                        "Renewable resource"
+                    ],
+                    "image": "/solutions/rubber_wood.png"
+                }
+            ]
+        },
+        {
+            "id": "wooden-pallets",
+            "title": "Wooden Pallets",
+            "description": "Comprehensive range of wooden pallets for material handling and storage applications.",
+            "icon": "Grid3x3",
+            "services": [
+                {
+                    "id": "wooden-pallets",
+                    "title": "Wooden Pallets",
+                    "description": "Standard wooden pallets for general material handling and storage applications with reliable construction.",
+                    "features": [
+                        "Standard dimensions",
+                        "Reliable construction",
+                        "Cost-effective solution",
+                        "Multi-use capability",
+                        "Easy handling",
+                        "Industry standard"
+                    ],
+                    "image": "/solutions/pallets.png"
+                },
+                {
+                    "id": "two-way-pallets",
+                    "title": "Two-Way Wooden Pallets",
+                    "description": "Standard two-way entry pallets for forklift handling and storage applications with optimal access design.",
+                    "features": [
+                        "Two-way fork entry",
+                        "Rack storage compatible",
+                        "Standard dimensions",
+                        "Cost-effective design",
+                        "High load capacity",
+                        "Durable construction"
+                    ],
+                    "image": "/solutions/two_way_pallets.png"
+                },
+                {
+                    "id": "four-way-pallets",
+                    "title": "Four-Way Wooden Pallets",
+                    "description": "Four-way entry pallets providing maximum accessibility for material handling equipment with versatile design.",
+                    "features": [
+                        "Four-way entry access",
+                        "Forklift and pallet jack compatible",
+                        "Maximum handling flexibility",
+                        "Reinforced corner blocks",
+                        "Smooth surface finish",
+                        "Easy stacking design"
+                    ],
+                    "image": "/solutions/four_way_pallets.png"
+                },
+                {
+                    "id": "collar-pallets",
+                    "title": "Collar Wooden Pallets",
+                    "description": "Pallets with removable wooden collars for increased storage capacity and versatility in material handling.",
+                    "features": [
+                        "Removable collar system",
+                        "Increased storage height",
+                        "Stackable design",
+                        "Versatile configuration",
+                        "Space-saving storage",
+                        "Easy assembly/disassembly"
+                    ],
+                    "image": "/solutions/collar_pallets.png"
+                },
+                {
+                    "id": "heavy-duty-pallets",
+                    "title": "Heavy-Duty Wooden Pallets (Jungle Wood & Hardwood)",
+                    "description": "Extra heavy-duty pallets made from premium jungle wood and hardwood for maximum load capacity and durability.",
+                    "features": [
+                        "Premium jungle wood construction",
+                        "Maximum load capacity",
+                        "Superior durability",
+                        "Heavy-duty applications",
+                        "Long service life",
+                        "Extreme condition resistant"
+                    ],
+                    "image": "/solutions/heavy_duty.png"
+                }
+            ]
+        },
+        {
+            "id": "specialized-packaging",
+            "title": "Specialized Packaging Solutions",
+            "description": "Advanced packaging solutions for specific industrial requirements and applications.",
+            "icon": "Shield",
+            "services": [
+                {
+                    "id": "aluminum-foil-vacuum",
+                    "title": "Aluminum Foil Vacuum Packing",
+                    "description": "High-barrier aluminum foil vacuum packaging for moisture and corrosion protection with advanced sealing technology.",
+                    "features": [
+                        "High barrier protection",
+                        "Moisture prevention",
+                        "Corrosion resistance",
+                        "Vacuum sealing technology",
+                        "Long-term preservation",
+                        "Custom sizes available"
+                    ],
+                    "image": "/solutions/aluminum_foil.png"
+                },
+                {
+                    "id": "vci-packing",
+                    "title": "VCI Packing (Volatile Corrosion Inhibitors)",
+                    "description": "Advanced VCI packaging technology for superior corrosion protection of metal components with innovative chemical protection.",
+                    "features": [
+                        "Corrosion prevention technology",
+                        "No direct contact required",
+                        "Long-term protection",
+                        "Environmentally safe",
+                        "Easy application process",
+                        "Multi-metal protection"
+                    ],
+                    "image": "/solutions/VCI.png"
+                },
+                {
+                    "id": "lashing-choking",
+                    "title": "Lashing and Choking Packaging",
+                    "description": "Professional cargo securing solutions for safe transportation of heavy and oversized loads with certified restraint systems.",
+                    "features": [
+                        "Professional cargo securing",
+                        "Heavy load restraint",
+                        "Safety certified systems",
+                        "Custom configurations",
+                        "Professional installation",
+                        "Compliance documentation"
+                    ],
+                    "image": "/solutions/lashing_choking.png"
+                }
+            ]
+        },
+        {
+            "id": "treatment-services",
+            "title": "Treatment & Custom Services",
+            "description": "Specialized treatment services and custom packaging solutions for specific requirements.",
+            "icon": "Settings",
+            "services": [
+                {
+                    "id": "ispm15-heat-treatment",
+                    "title": "ISPM-15 Heat Treatment",
+                    "description": "Certified heat treatment services for wooden packaging materials as per international standards with official certification.",
+                    "features": [
+                        "ISPM-15 certified process",
+                        "56°C core temperature",
+                        "30-minute treatment duration",
+                        "Official certification stamps",
+                        "Tracking documentation",
+                        "International acceptance"
+                    ],
+                    "image": "/solutions/ISPM_15_heat.png"
+                },
+                {
+                    "id": "ispm15-fumigation",
+                    "title": "ISPM-15 Fumigation Treatment",
+                    "description": "Professional fumigation treatment services for wooden packaging materials and cargo with certified chemical treatment.",
+                    "features": [
+                        "Chemical fumigation process",
+                        "ISPM-15 compliance",
+                        "Professional application",
+                        "Safety certified procedures",
+                        "Documentation provided",
+                        "International standards"
+                    ],
+                    "image": "/solutions/ISPM_15_fumigation.png"
+                },
+                {
+                    "id": "transforming-pallets",
+                    "title": "Transforming Wooden Pallets into Furniture",
+                    "description": "Creative upcycling services to transform used wooden pallets into functional furniture pieces with sustainable design.",
+                    "features": [
+                        "Creative upcycling design",
+                        "Sustainable furniture solutions",
+                        "Custom design options",
+                        "Eco-friendly approach",
+                        "Quality craftsmanship",
+                        "Unique pieces"
+                    ],
+                    "image": "/solutions/furniture.png"
+                },
+                {
+                    "id": "custom-material-packing",
+                    "title": "Custom Customer Specific Material Packing",
+                    "description": "Tailored packaging solutions designed specifically for unique customer requirements and materials with bespoke design.",
+                    "features": [
+                        "Bespoke design solutions",
+                        "Material-specific protection",
+                        "Custom dimensions",
+                        "Specialized features",
+                        "Engineering support",
+                        "Prototype development"
+                    ],
+                    "image": "/solutions/custom.png"
+                },
+                {
+                    "id": "palletization",
+                    "title": "Palletization",
+                    "description": "Professional palletization services for efficient loading, storage, and transportation of goods with optimized arrangements.",
+                    "features": [
+                        "Optimized load arrangements",
+                        "Maximum space utilization",
+                        "Secure load stability",
+                        "Professional wrapping",
+                        "Load distribution analysis",
+                        "Transportation efficiency"
+                    ],
+                    "image": "/solutions/palletization.png"
+                },
+                {
+                    "id": "packing-materials",
+                    "title": "Packing Materials",
+                    "description": "Comprehensive range of packing materials including cushioning, protective, and securing materials for complete packaging solutions.",
+                    "features": [
+                        "Comprehensive material range",
+                        "Cushioning solutions",
+                        "Protective materials",
+                        "Securing systems",
+                        "Quality materials",
+                        "Bulk quantities available"
+                    ],
+                    "image": "/solutions/packing_materials.png"
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "title": "Custom Design",
+            "description": "Tailored packaging solutions designed specifically for your products and requirements.",
+            "icon": "Ruler"
+        },
+        {
+            "title": "Quality Assured",
+            "description": "All products tested and certified to meet international quality and safety standards.",
+            "icon": "Award"
+        },
+        {
+            "title": "Fast Delivery",
+            "description": "Efficient production and logistics ensure timely delivery of your packaging orders.",
+            "icon": "Truck"
+        },
+        {
+            "title": "Technical Support",
+            "description": "Expert consultation and technical support throughout your packaging journey.",
+            "icon": "Headphones"
+        }
+    ]
+}

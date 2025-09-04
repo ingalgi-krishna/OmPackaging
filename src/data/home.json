@@ -1,0 +1,253 @@
+{
+    "hero": {
+        "title": "Premium Industrial Packaging Solutions",
+        "subtitle": "Leading provider of innovative wooden packaging solutions for industrial applications. We deliver quality, reliability, and efficiency for your packaging needs.",
+        "primaryCTA": "Get Quote",
+        "secondaryCTA": "View Catalog",
+        "stats": [
+            {
+                "value": "1000+",
+                "label": "Satisfied Clients"
+            },
+            {
+                "value": "21+",
+                "label": "Packaging Solutions"
+            },
+            {
+                "value": "24/7",
+                "label": "Customer Support"
+            }
+        ]
+    },
+    "coreValues": [
+        {
+            "icon": "Package",
+            "title": "Quality Packaging",
+            "description": "We provide high-quality wooden and specialized packaging solutions that ensure product safety and integrity during transport and storage."
+        },
+        {
+            "icon": "Shield",
+            "title": "ISPM-15 Compliance",
+            "description": "Our wooden packaging solutions are ISPM-15 certified with proper heat treatment and fumigation for international shipping."
+        },
+        {
+            "icon": "Truck",
+            "title": "Timely Delivery",
+            "description": "We understand the importance of on-time delivery and maintain efficient supply chain operations for all packaging needs."
+        },
+        {
+            "icon": "Award",
+            "title": "Industry Standards",
+            "description": "All our packaging solutions comply with international quality standards and export regulations for global markets."
+        }
+    ],
+    "partners": [
+        {
+            "id": "1",
+            "name": "Tata Motors",
+            "logo": "/logos/c7.png",
+            "website": "https://tatamotors.com"
+        },
+        {
+            "id": "2",
+            "name": "Posco",
+            "logo": "/logos/c8.png",
+            "website": "https://posco.com"
+        },
+        {
+            "id": "3",
+            "name": "Bajaj Auto",
+            "logo": "/logos/c6.png",
+            "website": "https://bajajauto.com"
+        },
+        {
+            "id": "4",
+            "name": "Thermax",
+            "logo": "/logos/c5.png",
+            "website": "https://thermaxglobal.com"
+        },
+        {
+            "id": "5",
+            "name": "Suez Environment",
+            "logo": "/logos/c4.png",
+            "website": "https://www.suez.com/en/india"
+        },
+        {
+            "id": "6",
+            "name": "Kirloskar",
+            "logo": "/logos/c2.png",
+            "website": "https://kirloskarlimitless.com/"
+        },
+        {
+            "id": "7",
+            "name": "Atlas Copco",
+            "logo": "/logos/c3.png",
+            "website": "https://atlascopco.com"
+        },
+        {
+            "id": "8",
+            "name": "Thyssenkrupp",
+            "logo": "/logos/c1.png",
+            "website": "https://thyssenkrupp.com/en/home"
+        }
+    ],
+    "services": [
+        {
+            "id": "wooden_crates",
+            "title": "Wooden Packaging Solutions",
+            "description": "Premium wooden packaging and crate solutions for heavy-duty industrial applications and export requirements.",
+            "features": [
+                "Seaworthy Construction",
+                "Heavy Machinery Protection",
+                "Export Grade Quality",
+                "Custom Dimensions"
+            ],
+            "solutions": [
+                "Seaworthy Wooden Box Packaging",
+                "Industrial Heavy Machinery Packaging Boxes",
+                "Wooden Crates",
+                "Plywood Boxes Packaging",
+                "Small Packaging Boxes",
+                "Pinewood Export Packaging",
+                "Rubber Wood Box Packaging"
+            ]
+        },
+        {
+            "id": "palletization",
+            "title": "Wooden Pallet Solutions",
+            "description": "Comprehensive range of wooden pallets designed for efficient material handling and storage solutions.",
+            "features": [
+                "Two-Way & Four-Way Entry",
+                "Heavy-Duty Construction",
+                "Jungle Wood & Hardwood",
+                "Collar Design Options"
+            ],
+            "solutions": [
+                "Wooden Pallets",
+                "Two-Way Wooden Pallets",
+                "Four-Way Wooden Pallets",
+                "Collar Wooden Pallets",
+                "Heavy-Duty Wooden Pallets (Jungle Wood & Hardwood)",
+                "Transforming Wooden Pallets into Furniture"
+            ]
+        },
+        {
+            "id": "VCI",
+            "title": "Specialized Packaging Solutions",
+            "description": "Advanced packaging solutions for specific industries including electronics, automotive, and chemical applications.",
+            "features": [
+                "Vacuum Sealing Technology",
+                "Corrosion Protection",
+                "Secure Load Restraint",
+                "Anti-Static Properties"
+            ],
+            "solutions": [
+                "Aluminum Foil Vacuum Packing",
+                "VCI Packing (Volatile Corrosion Inhibitors)",
+                "Lashing and Choking Packaging"
+            ]
+        },
+        {
+            "id": "ISPM_15_fumigation",
+            "title": "Treatment Services",
+            "description": "Professional treatment services and certifications for wooden packaging materials as per international standards.",
+            "features": [
+                "ISPM-15 Certified",
+                "Heat Treatment",
+                "Fumigation Services",
+                "Export Compliance"
+            ],
+            "solutions": [
+                "ISPM-15 Heat Treatment",
+                "ISPM-15 Fumigation Treatment"
+            ]
+        },
+        {
+            "id": "custom",
+            "title": "Custom & Support Services",
+            "description": "Tailored packaging solutions and comprehensive support services for unique requirements and material handling.",
+            "features": [
+                "Custom Design Solutions",
+                "Professional Palletization",
+                "Material Supply",
+                "Creative Upcycling"
+            ],
+            "solutions": [
+                "Custom Customer Specific Material Packing",
+                "Palletization",
+                "Packing Materials"
+            ]
+        }
+    ],
+    "allSolutions": [
+        "Seaworthy Wooden Box Packaging",
+        "Wooden Pallets",
+        "Industrial Heavy Machinery Packaging Boxes",
+        "Wooden Crates",
+        "Two-Way Wooden Pallets",
+        "Four-Way Wooden Pallets",
+        "Collar Wooden Pallets",
+        "Plywood Boxes Packaging",
+        "Small Packaging Boxes",
+        "Aluminum Foil Vacuum Packing",
+        "VCI Packing (Volatile Corrosion Inhibitors)",
+        "Pinewood Export Packaging",
+        "Heavy-Duty Wooden Pallets (Jungle Wood & Hardwood)",
+        "Lashing and Choking Packaging",
+        "Rubber Wood Box Packaging",
+        "ISPM-15 Heat Treatment",
+        "ISPM-15 Fumigation Treatment",
+        "Transforming Wooden Pallets into Furniture",
+        "Custom Customer Specific Material Packing",
+        "Palletization",
+        "Packing Materials"
+    ],
+    "process": [
+        {
+            "step": 1,
+            "title": "Consultation",
+            "description": "We understand your packaging requirements, dimensions, and shipping needs."
+        },
+        {
+            "step": 2,
+            "title": "Design & Planning",
+            "description": "We design custom packaging solutions and plan materials, treatments, and specifications."
+        },
+        {
+            "step": 3,
+            "title": "Manufacturing",
+            "description": "We craft packaging using premium materials with proper treatments and quality controls."
+        },
+        {
+            "step": 4,
+            "title": "Delivery & Support",
+            "description": "We deliver certified packaging on time with complete documentation and ongoing support."
+        }
+    ],
+    "testimonials": [
+        {
+            "id": "1",
+            "name": "Rajesh Kumar",
+            "company": "Heavy Machinery Exports",
+            "position": "Export Manager",
+            "content": "Itech's seaworthy wooden box packaging has been perfect for our heavy machinery exports. ISPM-15 certified and excellent quality.",
+            "rating": 5
+        },
+        {
+            "id": "2",
+            "name": "Priya Sharma",
+            "company": "Industrial Components Ltd",
+            "position": "Logistics Director",
+            "content": "Their VCI packaging and aluminum foil vacuum packing have significantly reduced corrosion issues. Very professional service.",
+            "rating": 5
+        },
+        {
+            "id": "3",
+            "name": "Amit Patel",
+            "company": "Export Industries",
+            "position": "Operations Head",
+            "content": "Excellent wooden crates and pallets. The heat treatment certification made our export process smooth and compliant.",
+            "rating": 5
+        }
+    ]
+}

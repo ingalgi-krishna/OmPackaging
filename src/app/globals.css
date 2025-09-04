@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+:root {
+  /* Your core color palette */
+  --berkeley: #002B5B;
+  --picton: #00B0F0;
+  --white: #FFFFFF;
+
+  /* Semantic variables for light mode (default) */
+  --background: var(--white);
+  --foreground: #111827;
+  --primary: var(--picton);
+  --secondary: var(--berkeley);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Semantic variables for dark mode */
+    --background: var(--berkeley);
+    --foreground: var(--white);
+  }
+}
+
+/*
+  Apply the base styles to the body.
+*/
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+/* Base heading styles - BUT allow override with Tailwind classes */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+/* Make sure paragraphs are dark and visible on white backgrounds */
+p {
+  color: #374151;
+}
+
+/* Utility classes */
+.section-padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}

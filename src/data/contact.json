@@ -1,0 +1,200 @@
+{
+    "hero": {
+        "title": "Get In Touch",
+        "subtitle": "Ready to Partner with Us?",
+        "description": "We'd love to hear from you. Whether you need a quote, have questions about our packaging solutions, or want to discuss a custom project, our team is here to help."
+    },
+    "contactInfo": {
+        "address": {
+            "street": "C7/13, HDFC Colony, Telco Road",
+            "area": "Shahu Nagar, Chinchwad",
+            "city": "Pune",
+            "state": "Maharashtra",
+            "pincode": "411019",
+            "country": "India",
+            "full": "C7/13, HDFC Colony, Telco Road, Shahu Nagar, Chinchwad, Pune 411019, Maharashtra, India"
+        },
+        "phone": {
+            "primary": "+919923142533",
+            "whatsapp": "+919923142533"
+        },
+        "email": {
+            "primary": "info@omindiagroups.com",
+            "general": "info@omindiagroups.com",
+            "dispatch": "dispatch@omindiagroups.com"
+        },
+        "gst": "27AJNPG0303J1ZG",
+        "locationDescription": "The registered office & all three manufacturing units are located in a prominent area of Pimpri-Chinchwad (Pune), Chakan MIDC (Pune), Talawade MIDC (Pune), Kavathe MIDC (Satara). Making it accessible for clients and partners.",
+        "businessHours": {
+            "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+            "saturday": "Saturday: 9:00 AM - 2:00 PM",
+            "sunday": "Sunday: Closed"
+        },
+        "socialMedia": {
+            "linkedin": "https://linkedin.com/company/itech-packaging",
+            "twitter": "https://twitter.com/itechpackaging",
+            "facebook": "https://facebook.com/itechpackaging",
+            "instagram": "https://instagram.com/itechpackaging",
+            "youtube": "https://youtube.com/itechpackaging"
+        }
+    },
+    "officeLocations": [
+        {
+            "id": "pune-office",
+            "name": "Registered Office",
+            "type": "Head Office",
+            "address": "C7/13, HDFC Colony, Telco Road, Shahu Nagar, Chinchwad, Pune 411019, Maharashtra, India",
+            "phone": "+919923142533",
+            "email": "info@omindiagroups.com",
+            "gst": "27AJNPG0303J1ZG",
+            "coordinates": {
+                "lat": 18.6298,
+                "lng": 73.7997
+            }
+        },
+        {
+            "id": "unit-1-chakan",
+            "name": "Unit I",
+            "type": "Manufacturing Unit",
+            "address": "Gate No. 33, MIDC B&C Mahalunge, Talegaon-Chakan Link Road, MIDC Chakan, Mahalunge, Tal. Khed, Pune 410501, Maharashtra, India",
+            "phone": "+919923142533",
+            "email": "dispatch@omindiagroups.com",
+            "coordinates": {
+                "lat": 18.7645,
+                "lng": 73.8634
+            }
+        },
+        {
+            "id": "unit-2-talawade",
+            "name": "Unit II",
+            "type": "Manufacturing Unit",
+            "address": "Gate No.1567, Dehu-Alandi Road, Shelar Wasti, Pune 411014, Maharashtra, India",
+            "phone": "+919923142533",
+            "email": "dispatch@omindiagroups.com",
+            "coordinates": {
+                "lat": 18.7102,
+                "lng": 73.7634
+            }
+        },
+        {
+            "id": "unit-3-kavathe",
+            "name": "Unit III",
+            "type": "Manufacturing Unit",
+            "address": "Gate No. 882, MIDC Kavathe, Shirwal, Tal. Khandala, Satara 412801, Maharashtra, India",
+            "phone": "+919923142533",
+            "email": "dispatch@omindiagroups.com",
+            "coordinates": {
+                "lat": 18.1124,
+                "lng": 73.9456
+            }
+        }
+    ],
+    "inquiryTypes": [
+        {
+            "id": "quote-request",
+            "label": "Request Quote",
+            "description": "Get pricing for your packaging requirements"
+        },
+        {
+            "id": "product-inquiry",
+            "label": "Product Inquiry",
+            "description": "Learn more about our packaging solutions"
+        },
+        {
+            "id": "technical-support",
+            "label": "Technical Support",
+            "description": "Get help with existing products or services"
+        },
+        {
+            "id": "partnership",
+            "label": "Partnership Opportunity",
+            "description": "Explore business partnership possibilities"
+        },
+        {
+            "id": "career-inquiry",
+            "label": "Career Inquiry",
+            "description": "Ask about job opportunities"
+        },
+        {
+            "id": "general-inquiry",
+            "label": "General Inquiry",
+            "description": "Other questions or feedback"
+        }
+    ],
+    "inquiryForm": {
+        "title": "Inquiry Form",
+        "subtitle": "Let's Talk",
+        "fields": [
+            {
+                "name": "name",
+                "label": "Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your full name"
+            },
+            {
+                "name": "organizationName",
+                "label": "Organization Name",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your company name"
+            },
+            {
+                "name": "designation",
+                "label": "Designation",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your job title"
+            },
+            {
+                "name": "location",
+                "label": "Location",
+                "type": "text",
+                "required": true,
+                "placeholder": "Your city/location"
+            },
+            {
+                "name": "contactNo",
+                "label": "Contact No.",
+                "type": "tel",
+                "required": true,
+                "placeholder": "+91 XXXXX XXXXX"
+            },
+            {
+                "name": "email",
+                "label": "Email",
+                "type": "email",
+                "required": true,
+                "placeholder": "your.email@example.com"
+            },
+            {
+                "name": "subject",
+                "label": "Subject",
+                "type": "text",
+                "required": true,
+                "placeholder": "Brief subject of your inquiry"
+            },
+            {
+                "name": "message",
+                "label": "Detailed Message",
+                "type": "textarea",
+                "required": true,
+                "placeholder": "Please provide detailed information about your requirements"
+            },
+            {
+                "name": "attachment",
+                "label": "Attachment",
+                "type": "file",
+                "required": false,
+                "accept": ".pdf,.doc,.docx,.jpg,.jpeg,.png"
+            }
+        ],
+        "consent": {
+            "text": "I consent of my submitted information, allowing the \"Om India ~ Total packaging Solutions\" to respond to my project / service technical inquiry.",
+            "required": true
+        },
+        "submitButton": {
+            "text": "Send Message"
+        }
+    }
+}
