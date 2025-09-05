@@ -18,8 +18,8 @@ export function ContactHero({ data }: ContactHeroProps) {
     const quickStats = [
         { icon: Phone, label: '24/7 Support', value: 'Available' },
         { icon: Mail, label: 'Response Time', value: '< 2 Hours' },
-        { icon: MapPin, label: 'Locations', value: '4+ Cities' },
-        { icon: Clock, label: 'Business Hours', value: 'Mon-Sat' },
+        { icon: MapPin, label: 'Location', value: 'Chakan, Pune' },
+        { icon: Clock, label: 'Business Hours', value: 'All day 24Hrs' },
     ];
 
     return (

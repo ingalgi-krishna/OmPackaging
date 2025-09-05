@@ -26,7 +26,7 @@ interface OfficeLocationsProps {
 
 export function OfficeLocations({ data }: OfficeLocationsProps) {
     const openMap = (coordinates: { lat: number; lng: number }) => {
-        window.open(`https://maps.google.com/maps?q=${coordinates.lat},${coordinates.lng}`, '_blank');
+        window.open(`https://maps.app.goo.gl/LZXGTTbNbffCyf4BA`, '_blank');
     };
 
     const makeCall = (phone: string) => {

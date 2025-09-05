@@ -23,12 +23,11 @@
             "general": "info@omindiagroups.com",
             "dispatch": "dispatch@omindiagroups.com"
         },
-        "gst": "27AJNPG0303J1ZG",
-        "locationDescription": "The registered office & all three manufacturing units are located in a prominent area of Pimpri-Chinchwad (Pune), Chakan MIDC (Pune), Talawade MIDC (Pune), Kavathe MIDC (Satara). Making it accessible for clients and partners.",
+        "gst": "27AJNPG0303H1ZG",
         "businessHours": {
-            "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
-            "saturday": "Saturday: 9:00 AM - 2:00 PM",
-            "sunday": "Sunday: Closed"
+            "weekdays": "All day 24Hrs",
+            "saturday": "All day 24Hrs",
+            "sunday": "All day 24Hrs"
         },
         "socialMedia": {
             "linkedin": "https://linkedin.com/company/Om India-packaging",
@@ -40,53 +39,24 @@
     },
     "officeLocations": [
         {
-            "id": "pune-office",
+            "id": "chinchwad-office",
             "name": "Registered Office",
             "type": "Head Office",
             "address": "C7/13, HDFC Colony, Telco Road, Shahu Nagar, Chinchwad, Pune 411019, Maharashtra, India",
             "phone": "+919923142533",
             "email": "info@omindiagroups.com",
-            "gst": "27AJNPG0303J1ZG",
-            "coordinates": {
-                "lat": 18.6298,
-                "lng": 73.7997
-            }
+            "gst": "27AJNPG0303H1ZG",
+            "mapLink": "https://maps.app.goo.gl/LZXGTTbNbffCyf4BA"
         },
         {
-            "id": "unit-1-chakan",
-            "name": "Unit I",
-            "type": "Manufacturing Unit",
-            "address": "Gate No. 33, MIDC B&C Mahalunge, Talegaon-Chakan Link Road, MIDC Chakan, Mahalunge, Tal. Khed, Pune 410501, Maharashtra, India",
+            "id": "chakan-office",
+            "name": "Company Location",
+            "type": "Main Office",
+            "address": "Kasturi Business Centre, Gat No-33, Opp. Jeena Logistics, Chakan-Talegaon Road, Mahalunge Ingle, Chakan, Pune 410501, Maharashtra, India",
             "phone": "+919923142533",
-            "email": "dispatch@omindiagroups.com",
-            "coordinates": {
-                "lat": 18.7645,
-                "lng": 73.8634
-            }
-        },
-        {
-            "id": "unit-2-talawade",
-            "name": "Unit II",
-            "type": "Manufacturing Unit",
-            "address": "Gate No.1567, Dehu-Alandi Road, Shelar Wasti, Pune 411014, Maharashtra, India",
-            "phone": "+919923142533",
-            "email": "dispatch@omindiagroups.com",
-            "coordinates": {
-                "lat": 18.7102,
-                "lng": 73.7634
-            }
-        },
-        {
-            "id": "unit-3-kavathe",
-            "name": "Unit III",
-            "type": "Manufacturing Unit",
-            "address": "Gate No. 882, MIDC Kavathe, Shirwal, Tal. Khandala, Satara 412801, Maharashtra, India",
-            "phone": "+919923142533",
-            "email": "dispatch@omindiagroups.com",
-            "coordinates": {
-                "lat": 18.1124,
-                "lng": 73.9456
-            }
+            "email": "info@omindiagroups.com",
+            "gst": "27AJNPG0303H1ZG",
+            "mapLink": "https://maps.app.goo.gl/RGi5E5AsVmiwj8B76"
         }
     ],
     "inquiryTypes": [

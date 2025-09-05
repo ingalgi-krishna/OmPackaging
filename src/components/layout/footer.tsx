@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
     Mail,
@@ -95,7 +96,6 @@ export function Footer() {
         }
     };
 
-
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
@@ -124,8 +124,8 @@ export function Footer() {
     };
 
     const openMap = () => {
-        const fullAddress = `${COMPANY_INFO.address.street}, ${COMPANY_INFO.address.city}, ${COMPANY_INFO.address.state}`;
-        window.open(`https://maps.google.com/maps?q=${encodeURIComponent(fullAddress)}`, '_blank');
+        const fullAddress = `C7/13, HDFC Colony, Telco Road, Shahu Nagar, Chinchwad, Pune 411019, Maharashtra, India`;
+        window.open(`https://maps.app.goo.gl/LZXGTTbNbffCyf4BA`, '_blank');
     };
 
     return (
@@ -207,23 +207,33 @@ export function Footer() {
                                 transition={{ duration: 0.6 }}
                                 className="lg:col-span-2"
                             >
+                                {/* Logo and Company Name */}
                                 <Link href="/" className="flex items-center space-x-3 mb-6">
+                                    {/* Company Logo - Replace with your actual logo */}
                                     <div className="w-12 h-12 bg-gradient-to-br from-picton to-berkeley rounded-xl flex items-center justify-center shadow-lg">
-                                        <span className="text-white font-bold text-xl">I</span>
+                                        <Image
+                                            src="/logos/logo.png" // Add your logo path here
+                                            alt="Om India Logo"
+                                            width={32}
+                                            height={32}
+                                            className="object-contain"
+                                        />
                                     </div>
                                     <div>
                                         <div className="text-xl font-bold !text-white">
-                                            {COMPANY_INFO.name}
+                                            Om India
                                         </div>
                                         <div className="text-sm !text-white/80">
-                                            {COMPANY_INFO.tagline}
+                                            Total Packaging Solutions
                                         </div>
                                     </div>
                                 </Link>
 
+                                {/* Description */}
                                 <p className="!text-white/80 leading-relaxed mb-6">
-                                    Leading provider of innovative industrial packaging solutions since {COMPANY_INFO.businessDetails.establishedYear}.
-                                    We deliver quality, reliability, and sustainability in every package.
+                                    Your trusted partner in comprehensive packaging solutions. We specialize in delivering
+                                    innovative, sustainable, and cost-effective packaging products that meet diverse industry
+                                    needs. From design to delivery, we ensure quality and reliability in every solution.
                                 </p>
 
                                 {/* Social Media */}
@@ -302,8 +312,9 @@ export function Footer() {
                                         <MapPin size={16} className="!text-picton mt-1 flex-shrink-0" />
                                         <div>
                                             <p className="!text-white/80 text-sm leading-relaxed">
-                                                {COMPANY_INFO.address.street}<br />
-                                                {COMPANY_INFO.address.city}, {COMPANY_INFO.address.state} {COMPANY_INFO.address.pincode}
+                                                C7/13, HDFC Colony, Telco Road<br />
+                                                Shahu Nagar, Chinchwad<br />
+                                                Pune 411019, Maharashtra, India
                                             </p>
                                             <button
                                                 onClick={openMap}
@@ -360,8 +371,7 @@ export function Footer() {
                                     <div className="flex items-start space-x-3">
                                         <Clock size={16} className="!text-picton mt-1 flex-shrink-0" />
                                         <div className="text-sm !text-white/80">
-                                            <div>Mon-Fri: 9 AM - 6 PM</div>
-                                            <div>Sat: 9 AM - 2 PM</div>
+                                            <div>All day 24Hrs</div>
                                             <div className="text-xs !text-green-400 mt-1">24/7 Emergency Support</div>
                                         </div>
                                     </div>
@@ -374,13 +384,13 @@ export function Footer() {
                     <div className="py-6 border-t border-white/10">
                         <div className="flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
                             <div className="text-sm !text-white/70 text-center lg:text-left">
-                                © {currentYear} {COMPANY_INFO.name}. All rights reserved.
+                                © {currentYear} Om India - Total Packaging Solutions. All rights reserved.
                             </div>
 
                             <div className="text-xs !text-white/90">
                                 Technology Partner:{" "}
                                 <a
-                                    href="https://sucetastech.com" // Make sure to link to your site
+                                    href="https://sucetastech.com"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="font-semibold text-[#fffff] hover:text-gray-400 transition-colors"
@@ -391,28 +401,30 @@ export function Footer() {
                         </div>
                     </div>
                 </Container>
-            </footer>
+            </footer >
 
             {/* Scroll to Top Button */}
             <AnimatePresence>
-                {isFooterVisible && (
-                    <motion.button
-                        onClick={scrollToTop}
-                        className="fixed bottom-6 right-6 w-12 h-12 bg-[#002B5B] hover:bg-[#001a3d] border-2 border-white/20 rounded-full flex items-center justify-center shadow-2xl z-[9999] transition-all duration-300 backdrop-blur-sm"
-                        initial={{ opacity: 0, scale: 0.8 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        exit={{ opacity: 0, scale: 0.8 }}
-                        transition={{ duration: 0.3 }}
-                        whileHover={{ scale: 1.1, boxShadow: "0 8px 30px rgba(0, 43, 91, 0.3)" }}
-                        whileTap={{ scale: 0.95 }}
-                        style={{
-                            background: "linear-gradient(135deg, #002B5B 0%, #001a3d 100%)",
-                        }}
-                    >
-                        <ChevronUp size={24} className="text-white drop-shadow-sm" />
-                    </motion.button>
-                )}
-            </AnimatePresence>
+                {
+                    isFooterVisible && (
+                        <motion.button
+                            onClick={scrollToTop}
+                            className="fixed bottom-6 right-6 w-12 h-12 bg-[#002B5B] hover:bg-[#001a3d] border-2 border-white/20 rounded-full flex items-center justify-center shadow-2xl z-[9999] transition-all duration-300 backdrop-blur-sm"
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0.8 }}
+                            transition={{ duration: 0.3 }}
+                            whileHover={{ scale: 1.1, boxShadow: "0 8px 30px rgba(0, 43, 91, 0.3)" }}
+                            whileTap={{ scale: 0.95 }}
+                            style={{
+                                background: "linear-gradient(135deg, #002B5B 0%, #001a3d 100%)",
+                            }}
+                        >
+                            <ChevronUp size={24} className="text-white drop-shadow-sm" />
+                        </motion.button>
+                    )
+                }
+            </AnimatePresence >
         </>
     );
 }

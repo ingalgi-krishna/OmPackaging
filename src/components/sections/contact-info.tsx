@@ -148,9 +148,6 @@ export function ContactInfo({ data }: ContactInfoProps) {
                                 {data.address.city}, {data.address.state} {data.address.pincode}<br />
                                 {data.address.country}
                             </address>
-                            {data.locationDescription && (
-                                <p className="text-xs text-gray-600 mb-3">{data.locationDescription}</p>
-                            )}
                             <Button
                                 size="sm"
                                 className="bg-[#002B5B] hover:bg-[#001a3d] text-white"
@@ -260,18 +257,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                             </CardHeader>
                             <CardContent className="pt-0 space-y-1">
                                 <div className="flex justify-between text-sm">
-
                                     <span className="text-gray-600 font-medium">{data.businessHours.weekdays}</span>
-                                </div>
-                                <div className="flex justify-between text-sm">
-
-                                    <span className="text-gray-600 font-medium">{data.businessHours.saturday}</span>
-                                </div>
-                                <div className="flex justify-between text-sm">
-
-                                    <span className={`font-medium ${data.businessHours.sunday.toLowerCase().includes('closed') ? 'text-red-500' : 'text-gray-600'}`}>
-                                        {data.businessHours.sunday}
-                                    </span>
                                 </div>
                                 <div className="mt-3 p-2 bg-blue-50 rounded border-l-4 border-[#002B5B]">
                                     <p className="text-xs text-[#002B5B] font-medium">

@@ -85,7 +85,7 @@ export function ContactForm({ data }: ContactFormProps) {
     const selectClassName = "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#002B5B] focus:border-[#002B5B] outline-none transition-colors bg-white text-gray-900 appearance-none cursor-pointer";
 
     return (
-        <section className="py-8 bg-white">
+        <section className="py-8  bg-gray-50">
             <Container size="lg">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}

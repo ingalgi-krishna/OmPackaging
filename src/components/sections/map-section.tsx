@@ -13,12 +13,9 @@ interface OfficeLocation {
     address: string;
     phone: string;
     email: string;
-    gst?: string; // Optional GST number
-    manager?: string; // Optional manager name
-    coordinates: {
-        lat: number;
-        lng: number;
-    };
+    gst?: string;
+    manager?: string;
+    mapLink: string;
 }
 
 interface MapSectionProps {
@@ -29,7 +26,7 @@ export function MapSection({ data }: MapSectionProps) {
     const [selectedOffice, setSelectedOffice] = useState(data[0]);
 
     const openInGoogleMaps = (office: OfficeLocation) => {
-        window.open(`https://maps.google.com/maps?q=${office.coordinates.lat},${office.coordinates.lng}`, '_blank');
+        window.open(office.mapLink, '_blank');
     };
 
     const makeCall = (phone: string) => {
@@ -38,6 +35,18 @@ export function MapSection({ data }: MapSectionProps) {
 
     const sendEmail = (email: string) => {
         window.location.href = `mailto:${email}`;
+    };
+
+    // Convert Google Maps link to embed URL
+    const getEmbedUrl = (mapLink: string) => {
+        // Extract address from the mapLink
+        const urlParams = new URLSearchParams(mapLink.split('?')[1]);
+        const query = urlParams.get('q');
+        if (query) {
+            return `https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=${encodeURIComponent(query)}`;
+        }
+        // Fallback: use the address directly
+        return `https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=${encodeURIComponent(selectedOffice.address)}`;
     };
 
     return (
@@ -100,18 +109,24 @@ export function MapSection({ data }: MapSectionProps) {
                             transition={{ duration: 0.4 }}
                             className="bg-white rounded-lg shadow-lg overflow-hidden"
                         >
-                            {/* Map Placeholder */}
-                            <div className="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative">
-                                <div className="text-center">
-                                    <MapPin size={40} className="text-[#002B5B] mx-auto mb-3" />
-                                    <p className="text-gray-800 font-medium mb-1">{selectedOffice.name}</p>
-                                    <p className="text-sm text-gray-600">Interactive Map</p>
-                                </div>
+                            {/* Embedded Google Map */}
+                            <div className="h-48 relative">
+                                <iframe
+                                    src={`https://www.google.com/maps?q=${encodeURIComponent(selectedOffice.address)}&output=embed`}
+                                    width="100%"
+                                    height="100%"
+                                    style={{ border: 0 }}
+                                    allowFullScreen
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                    title={`Map of ${selectedOffice.name}`}
+                                    className="rounded-t-lg"
+                                />
                                 <div className="absolute top-3 right-3">
                                     <Button
                                         size="sm"
                                         onClick={() => openInGoogleMaps(selectedOffice)}
-                                        className="bg-white !text-[#002B5B] border border-[#002B5B] hover:bg-[#002B5B] hover:!text-white text-xs"
+                                        className="bg-white !text-[#002B5B] border border-[#002B5B] hover:bg-[#002B5B] hover:!text-white text-xs shadow-lg"
                                     >
                                         Open in Google Maps
                                     </Button>

@@ -352,7 +352,7 @@ export function Navbar() {
                         <div className="flex items-center space-x-4">
                             <div className="flex items-center space-x-2">
                                 <Clock size={14} />
-                                <span>Mon-Sat: 9AM-6PM</span>
+                                <span>All Days, 24Hrs</span>
                             </div>
                             <div className="h-4 w-px bg-white/30" />
                             <div className="flex items-center space-x-1 text-xs">
@@ -383,11 +383,11 @@ export function Navbar() {
                             >
 
                                 <Image
-                                    src="/logo/logo.png"   // replace with actual logo path
+                                    src="/logos/logo.png"   // replace with actual logo path
                                     alt="Logo"
                                     width={32}             // controls rendered size
                                     height={32}
-                                    className="object-contain lg:w-8 lg:h-8"
+                                    className="object-contain lg:w-12 lg:h-12"
                                 />
 
                                 <div className="absolute -inset-1 bg-gradient-to-br from-picton/20 to-[#002B5B]/20 rounded-xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -397,7 +397,7 @@ export function Navbar() {
                                     {COMPANY_INFO.name}
                                 </div>
                                 <div className="text-xs text-gray-600 -mt-1">
-                                    Wooden Packaging Specialists
+                                    Total Packaging Solutions
                                 </div>
                             </div>
                             <div className="sm:hidden">

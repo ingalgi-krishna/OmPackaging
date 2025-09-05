@@ -101,37 +101,5 @@
             "expertise": [],
             "placeholder": true
         }
-    ],
-    "timeline": [
-        {
-            "year": "2010",
-            "title": "Company Founded",
-            "description": "Started operations with a focus on corrugated packaging solutions."
-        },
-        {
-            "year": "2013",
-            "title": "Expansion",
-            "description": "Expanded into specialized industrial packaging and protective materials."
-        },
-        {
-            "year": "2016",
-            "title": "ISO Certification",
-            "description": "Achieved ISO 9001:2015 certification for quality management systems."
-        },
-        {
-            "year": "2019",
-            "title": "Technology Upgrade",
-            "description": "Invested in state-of-the-art manufacturing equipment and automated systems."
-        },
-        {
-            "year": "2021",
-            "title": "Sustainability Initiative",
-            "description": "Launched eco-friendly packaging line and sustainability programs."
-        },
-        {
-            "year": "2023",
-            "title": "Market Leadership",
-            "description": "Became the preferred packaging partner for 1000+ companies across various industries."
-        }
     ]
 }

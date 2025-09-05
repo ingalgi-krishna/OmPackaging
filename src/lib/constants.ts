@@ -6,7 +6,7 @@ export const BRAND_COLORS = {
 
 export const COMPANY_INFO = {
     name: 'Om India',
-    tagline: 'Premium Industrial Packaging Solutions',
+    tagline: '',
     email: 'info@omindiagroups.com',
     phone: '+919923142533',
     whatsapp: '+919923142533',
@@ -20,13 +20,13 @@ export const COMPANY_INFO = {
         full: 'C7/13, HDFC Colony, Telco Road, Shahu Nagar, Chinchwad, Pune 411019, Maharashtra, India'
     },
     businessDetails: {
-        gstNumber: '27AJNPG0303J1ZG',
+        gstNumber: '27AJNPG0303H1ZG',
         establishedYear: '2010',
         experience: '13+ Years',
         regOffice: 'C7/13, HDFC Colony, Telco Road, Shahu Nagar, Chinchwad, Pune 411019, Maharashtra, India'
     },
     businessHours: {
-        weekdays: 'Monday - Friday: 9:00 AM - 6:00 PM',
+        weekdays: 'Monday - Sunday: 24 Hrs',
         saturday: 'Saturday: 9:00 AM - 2:00 PM',
         sunday: 'Sunday: Closed'
     },
