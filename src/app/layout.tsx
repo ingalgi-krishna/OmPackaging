@@ -11,7 +11,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Om India - Total Packaging Solutions | Industrial Wooden Packaging & ISPM-15 Treatment",
+  metadataBase: new URL('https://omindiagroups.com'), // Add this line
+  title: "Om India - Total Packaging Solutions | Industrial Packaging Solutions",
   description: "Leading provider of industrial packaging solutions including seaworthy wooden boxes, ISPM-15 treatments, VCI packing, wooden pallets, and export packaging. Serving 150+ clients with premium packaging services since 2009.",
   keywords: [
     // Primary packaging keywords

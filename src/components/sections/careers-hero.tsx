@@ -22,7 +22,7 @@ export function CareersHero({ data }: CareersHeroProps) {
 
     return (
         <section className="section-padding bg-gradient-to-br from-berkeley to-berkeley/90 !text-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('/general/team_portrait.png')] opacity-5" />
+            <div className="absolute inset-0 bg-[url('/general/team_portrait.webp')] opacity-5" />
 
             <Container size="xl" className="relative z-10">
                 <div className="grid grid-cols-1 gap-8 items-center text-left">

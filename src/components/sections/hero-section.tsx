@@ -26,8 +26,8 @@ interface HeroSectionProps {
 
 export function HeroSection({
     data,
-    backgroundImage = '/general/workers_packing_3.png',
-    heroImage = '/general/women_portrait.png'
+    backgroundImage = '/general/workers_packing_3.webp',
+    heroImage = '/general/women_portrait.webp'
 }: HeroSectionProps) {
     return (
         <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -43,8 +43,6 @@ export function HeroSection({
                 />
                 {/* Gradient Overlay */}
                 <div className="absolute inset-0 bg-gradient-to-br from-[#1C2A39]/95 via-[#1C2A39]/85 to-picton/30" />
-                {/* Pattern Overlay */}
-                <div className="absolute inset-0 bg-[url('/images/packaging-pattern.svg')] opacity-5" />
             </div>
 
             {/* Content */}

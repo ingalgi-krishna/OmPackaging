@@ -132,8 +132,6 @@ export function Footer() {
         <>
             <footer ref={footerRef} className="bg-berkeley !text-white relative overflow-hidden">
                 {/* Background Pattern */}
-                <div className="absolute inset-0 bg-[url('/images/footer-pattern.svg')] opacity-5" />
-
                 <Container size="xl" className="relative z-10">
                     {/* Newsletter Section */}
                     <div className="py-12 border-b border-white/10">

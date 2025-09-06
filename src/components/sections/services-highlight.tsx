@@ -82,7 +82,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                                     {/* Category Image */}
                                     <div className="relative h-48 overflow-hidden rounded-t-lg">
                                         <Image
-                                            src={`/solutions/${service.id}.png`}
+                                            src={`/solutions/${service.id}.webp`}
                                             alt={service.title}
                                             fill
                                             className="object-cover group-hover:scale-105 transition-transform duration-300"

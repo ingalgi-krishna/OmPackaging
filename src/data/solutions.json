@@ -39,7 +39,7 @@
                         "Heavy machinery protection",
                         "Export documentation included"
                     ],
-                    "image": "/solutions/seaworthy.png"
+                    "image": "/solutions/seaworthy.webp"
                 },
                 {
                     "id": "wooden-crates",
@@ -53,7 +53,7 @@
                         "Cost-effective solution",
                         "Standard and custom sizes"
                     ],
-                    "image": "/solutions/wooden_crates.png"
+                    "image": "/solutions/wooden_crates.webp"
                 },
                 {
                     "id": "industrial-machinery-boxes",
@@ -67,7 +67,7 @@
                         "Machinery-specific design",
                         "Professional installation"
                     ],
-                    "image": "/solutions/industrial.png"
+                    "image": "/solutions/industrial.webp"
                 },
                 {
                     "id": "plywood-boxes",
@@ -81,7 +81,7 @@
                         "Cost-effective",
                         "Multiple thickness options"
                     ],
-                    "image": "/solutions/plywood.png"
+                    "image": "/solutions/plywood.webp"
                 },
                 {
                     "id": "small-packaging-boxes",
@@ -95,7 +95,7 @@
                         "Lightweight construction",
                         "Bulk quantity available"
                     ],
-                    "image": "/solutions/small_packaging.png"
+                    "image": "/solutions/small_packaging.webp"
                 },
                 {
                     "id": "pinewood-export",
@@ -109,7 +109,7 @@
                         "Professional finish",
                         "Documentation support"
                     ],
-                    "image": "/solutions/Pinewood.png"
+                    "image": "/solutions/Pinewood.webp"
                 },
                 {
                     "id": "rubber-wood-boxes",
@@ -123,7 +123,7 @@
                         "Smooth finish",
                         "Renewable resource"
                     ],
-                    "image": "/solutions/rubber_wood.png"
+                    "image": "/solutions/rubber_wood.webp"
                 }
             ]
         },
@@ -145,7 +145,7 @@
                         "Easy handling",
                         "Industry standard"
                     ],
-                    "image": "/solutions/pallets.png"
+                    "image": "/solutions/pallets.webp"
                 },
                 {
                     "id": "two-way-pallets",
@@ -159,7 +159,7 @@
                         "High load capacity",
                         "Durable construction"
                     ],
-                    "image": "/solutions/two_way_pallets.png"
+                    "image": "/solutions/two_way_pallets.webp"
                 },
                 {
                     "id": "four-way-pallets",
@@ -173,7 +173,7 @@
                         "Smooth surface finish",
                         "Easy stacking design"
                     ],
-                    "image": "/solutions/four_way_pallets.png"
+                    "image": "/solutions/four_way_pallets.webp"
                 },
                 {
                     "id": "collar-pallets",
@@ -187,7 +187,7 @@
                         "Space-saving storage",
                         "Easy assembly/disassembly"
                     ],
-                    "image": "/solutions/collar_pallets.png"
+                    "image": "/solutions/collar_pallets.webp"
                 },
                 {
                     "id": "heavy-duty-pallets",
@@ -201,7 +201,7 @@
                         "Long service life",
                         "Extreme condition resistant"
                     ],
-                    "image": "/solutions/heavy_duty.png"
+                    "image": "/solutions/heavy_duty.webp"
                 }
             ]
         },
@@ -223,7 +223,7 @@
                         "Long-term preservation",
                         "Custom sizes available"
                     ],
-                    "image": "/solutions/aluminum_foil.png"
+                    "image": "/solutions/aluminum_foil.webp"
                 },
                 {
                     "id": "vci-packing",
@@ -237,7 +237,7 @@
                         "Easy application process",
                         "Multi-metal protection"
                     ],
-                    "image": "/solutions/VCI.png"
+                    "image": "/solutions/VCI.webp"
                 },
                 {
                     "id": "lashing-choking",
@@ -251,7 +251,7 @@
                         "Professional installation",
                         "Compliance documentation"
                     ],
-                    "image": "/solutions/lashing_choking.png"
+                    "image": "/solutions/lashing_choking.webp"
                 }
             ]
         },
@@ -273,7 +273,7 @@
                         "Tracking documentation",
                         "International acceptance"
                     ],
-                    "image": "/solutions/ISPM_15_heat.png"
+                    "image": "/solutions/ISPM_15_heat.webp"
                 },
                 {
                     "id": "ispm15-fumigation",
@@ -287,7 +287,7 @@
                         "Documentation provided",
                         "International standards"
                     ],
-                    "image": "/solutions/ISPM_15_fumigation.png"
+                    "image": "/solutions/ISPM_15_fumigation.webp"
                 },
                 {
                     "id": "transforming-pallets",
@@ -301,7 +301,7 @@
                         "Quality craftsmanship",
                         "Unique pieces"
                     ],
-                    "image": "/solutions/furniture.png"
+                    "image": "/solutions/furniture.webp"
                 },
                 {
                     "id": "custom-material-packing",
@@ -315,7 +315,7 @@
                         "Engineering support",
                         "Prototype development"
                     ],
-                    "image": "/solutions/custom.png"
+                    "image": "/solutions/custom.webp"
                 },
                 {
                     "id": "palletization",
@@ -329,7 +329,7 @@
                         "Load distribution analysis",
                         "Transportation efficiency"
                     ],
-                    "image": "/solutions/palletization.png"
+                    "image": "/solutions/palletization.webp"
                 },
                 {
                     "id": "packing-materials",
@@ -343,7 +343,7 @@
                         "Quality materials",
                         "Bulk quantities available"
                     ],
-                    "image": "/solutions/packing_materials.png"
+                    "image": "/solutions/packing_materials.webp"
                 }
             ]
         }

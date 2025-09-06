@@ -19,7 +19,7 @@ interface SolutionsHeroProps {
 export function SolutionsHero({ data }: SolutionsHeroProps) {
     return (
         <section className="section-padding bg-gradient-to-br from-[#1C2A39] to-[#1C2A39]/90 text-white relative overflow-hidden">
-            <div className="absolute inset-0 bg-[url('/general/pallet_manufacturing.png')] opacity-5" />
+            <div className="absolute inset-0 bg-[url('/general/pallet_manufacturing.webp')] opacity-5" />
 
             <Container size="xl" className="relative z-10">
                 <div className="max-w-4xl text-left">

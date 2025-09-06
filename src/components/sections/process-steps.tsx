@@ -17,7 +17,7 @@ export function ProcessSteps({ data }: ProcessStepsProps) {
     return (
         <section className="section-padding bg-berkeley !text-white relative overflow-hidden">
             {/* Background Pattern */}
-            <div className="absolute inset-0 bg-[url('/general/workers_packing_2.png')] opacity-5" />
+            <div className="absolute inset-0 bg-[url('/general/workers_packing_2.webp')] opacity-5" />
 
             <Container size="xl" className="relative z-10">
                 <motion.div
