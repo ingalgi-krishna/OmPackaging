@@ -1,0 +1,47 @@
+# Robots.txt for Om India Total Packaging Solutions
+# https://omindiagroups.com/robots.txt
+
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /solutions
+Allow: /contact
+Allow: /careers
+Allow: /privacy-policy
+Allow: /terms-and-conditions
+
+# Block sensitive areas
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow specific bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Crawl delay
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://omindiagroups.com/sitemap.xml
+
+# Host directive
+Host: https://omindiagroups.com
