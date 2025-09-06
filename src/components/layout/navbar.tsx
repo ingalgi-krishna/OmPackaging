@@ -181,7 +181,7 @@ function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                             <div className="grid lg:grid-cols-2 gap-6">
                                 {/* Solutions Categories */}
                                 <div>
-                                    <h3 className="font-semibold text-[#002B5B] mb-4 flex items-center">
+                                    <h3 className="font-semibold text-[#1C2A39] mb-4 flex items-center">
                                         <Package size={18} className="mr-2 text-picton" />
                                         Our Packaging Solutions
                                     </h3>
@@ -216,7 +216,7 @@ function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
 
                                 {/* Contact Information */}
                                 <div>
-                                    <h3 className="font-semibold text-[#002B5B] mb-4 flex items-center">
+                                    <h3 className="font-semibold text-[#1C2A39] mb-4 flex items-center">
                                         <Phone size={18} className="mr-2 text-picton" />
                                         Get In Touch
                                     </h3>
@@ -230,7 +230,7 @@ function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                                             <div className="flex gap-2">
                                                 <Button
                                                     size="sm"
-                                                    className="text-xs px-3 py-1 h-auto bg-[#002B5B] text-white hover:bg-picton"
+                                                    className="text-xs px-3 py-1 h-auto bg-[#1C2A39] text-white hover:bg-picton"
                                                     onClick={() => window.location.href = `tel:${COMPANY_INFO.phone}`}
                                                 >
                                                     Call
@@ -259,7 +259,7 @@ function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                                             <Button
                                                 size="sm"
                                                 variant="outline"
-                                                className="text-xs px-3 py-1 h-auto border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                                className="text-xs px-3 py-1 h-auto border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                                 onClick={() => window.location.href = `mailto:${COMPANY_INFO.email}`}
                                             >
                                                 Send Email
@@ -274,7 +274,7 @@ function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                                             <div className="flex gap-2">
                                                 <Button
                                                     size="sm"
-                                                    className="text-xs px-3 py-1 h-auto bg-[#002B5B] text-white hover:bg-picton"
+                                                    className="text-xs px-3 py-1 h-auto bg-[#1C2A39] text-white hover:bg-picton"
                                                     onClick={() => {
                                                         window.location.href = '/contact';
                                                         onClose();
@@ -285,7 +285,7 @@ function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                                                 <Button
                                                     size="sm"
                                                     variant="outline"
-                                                    className="text-xs px-3 py-1 h-auto border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                                    className="text-xs px-3 py-1 h-auto border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                                     onClick={() => {
                                                         window.open('/downloads/om-india-company-profile.pdf', '_blank');
                                                         onClose();
@@ -331,7 +331,7 @@ export function Navbar() {
     return (
         <>
             {/* Top Info Bar */}
-            <div className="bg-[#002B5B] text-white py-2 text-sm hidden lg:block">
+            <div className="bg-[#1C2A39] text-white py-2 text-sm hidden lg:block">
                 <Container size="xl">
                     <div className="flex items-center justify-between">
                         <div className="flex items-center space-x-6">
@@ -390,10 +390,10 @@ export function Navbar() {
                                     className="object-contain lg:w-12 lg:h-12"
                                 />
 
-                                <div className="absolute -inset-1 bg-gradient-to-br from-picton/20 to-[#002B5B]/20 rounded-xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                                <div className="absolute -inset-1 bg-gradient-to-br from-picton/20 to-[#1C2A39]/20 rounded-xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             </motion.div>
                             <div className="hidden sm:block">
-                                <div className="text-lg lg:text-xl font-bold text-[#002B5B] group-hover:text-picton transition-colors">
+                                <div className="text-lg lg:text-xl font-bold text-[#1C2A39] group-hover:text-picton transition-colors">
                                     {COMPANY_INFO.name}
                                 </div>
                                 <div className="text-xs text-gray-600 -mt-1">
@@ -401,7 +401,7 @@ export function Navbar() {
                                 </div>
                             </div>
                             <div className="sm:hidden">
-                                <div className="text-lg font-bold text-[#002B5B]">Om India</div>
+                                <div className="text-lg font-bold text-[#1C2A39]">Om India</div>
                             </div>
                         </Link>
 
@@ -415,7 +415,7 @@ export function Navbar() {
                                             onMouseLeave={() => setIsMegaMenuOpen(false)}
                                             style={{
                                                 color: pathname === link.href || pathname.startsWith('/solutions')
-                                                    ? '#002B5B'
+                                                    ? '#1C2A39'
                                                     : undefined,
                                                 backgroundColor: pathname === link.href || pathname.startsWith('/solutions')
                                                     ? '#E3F2FD'
@@ -438,7 +438,7 @@ export function Navbar() {
                                         <Link
                                             href={link.href}
                                             style={{
-                                                color: pathname === link.href ? '#002B5B' : undefined,
+                                                color: pathname === link.href ? '#1C2A39' : undefined,
                                                 backgroundColor: pathname === link.href ? '#E3F2FD' : undefined
                                             }}
                                             className={cn(
@@ -457,7 +457,7 @@ export function Navbar() {
                         </div>
 
                         {/* Desktop Actions */}
-                        <div className="hidden lg:flex items-center space-x-3 text-[#002B5B]">
+                        <div className="hidden lg:flex items-center space-x-3 text-[#1C2A39]">
                             <Button
                                 variant="ghost"
                                 size="sm"
@@ -469,7 +469,7 @@ export function Navbar() {
                             <Button
                                 variant="outline"
                                 size="sm"
-                                className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                 onClick={() => window.open('/downloads/om-india-company-profile.pdf', '_blank')}
                             >
                                 <FileText size={16} className="mr-2" />
@@ -478,7 +478,7 @@ export function Navbar() {
 
                             <Button
                                 size="sm"
-                                className="bg-[#002B5B] text-white hover:bg-picton"
+                                className="bg-[#1C2A39] text-white hover:bg-picton"
                                 onClick={() => window.location.href = `tel:${COMPANY_INFO.phone}`}
                             >
                                 <Phone size={16} className="mr-2" />
@@ -487,7 +487,7 @@ export function Navbar() {
                         </div>
 
                         {/* Mobile Actions */}
-                        <div className="flex lg:hidden items-center space-x-2 text-[#002B5B]">
+                        <div className="flex lg:hidden items-center space-x-2 text-[#1C2A39]">
                             <Button
                                 variant="ghost"
                                 size="sm"
@@ -505,7 +505,7 @@ export function Navbar() {
 
                             <button
                                 onClick={toggleMenu}
-                                className="p-2 text-[#002B5B] hover:text-picton transition-colors"
+                                className="p-2 text-[#1C2A39] hover:text-picton transition-colors"
                                 aria-label="Toggle mobile menu"
                                 aria-expanded={isOpen}
                             >
@@ -547,7 +547,7 @@ export function Navbar() {
                                             onClick={closeAllMenus}
                                             style={{
                                                 color: pathname === link.href || (link.href === '/solutions' && pathname.startsWith('/solutions'))
-                                                    ? '#002B5B'
+                                                    ? '#1C2A39'
                                                     : undefined,
                                                 backgroundColor: pathname === link.href || (link.href === '/solutions' && pathname.startsWith('/solutions'))
                                                     ? '#E3F2FD'
@@ -568,7 +568,7 @@ export function Navbar() {
                                         <div className="grid grid-cols-2 gap-3">
                                             <Button
                                                 size="sm"
-                                                className="bg-[#002B5B] text-white hover:bg-picton"
+                                                className="bg-[#1C2A39] text-white hover:bg-picton"
                                                 onClick={() => {
                                                     window.open('/downloads/om-india-company-profile.pdf', '_blank');
                                                     closeAllMenus();
@@ -580,7 +580,7 @@ export function Navbar() {
                                             <Button
                                                 variant="outline"
                                                 size="sm"
-                                                className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                                className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                                 onClick={() => {
                                                     const cleanPhone = COMPANY_INFO.whatsapp.replace(/[^\d]/g, '');
                                                     window.open(`https://wa.me/${cleanPhone}`, '_blank');
@@ -611,7 +611,7 @@ export function Navbar() {
                                         </div>
 
                                         <div className="text-xs text-gray-500">
-                                            <div>ISPM-15 Certified | GST: {COMPANY_INFO.businessDetails.gstNumber}</div>
+                                            <div> GST: {COMPANY_INFO.businessDetails.gstNumber}</div>
                                             <div>Premium Wooden Packaging Specialists</div>
                                         </div>
                                     </div>

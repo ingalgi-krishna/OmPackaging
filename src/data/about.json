@@ -3,30 +3,25 @@
         "title": "About Om India",
         "subtitle": "Leading the Industrial Packaging Industry",
         "description": "Om India Total Packaging Solutions is a dedicated leader in the packaging industry, committed to integrating innovative technologies, sustainable practices, and a customer-centric approach. Our focus on delivering cutting-edge packaging solutions not only enhances product safety and brand visibility but also contributes to a more sustainable future in packaging. We strive to meet the evolving needs of our clients while maintaining the highest standards of quality and environmental responsibility.",
-        "established": "2010",
-        "experience": "13+ Years",
-        "clients": "1000+",
-        "projects": "5000+"
+        "established": "2009",
+        "experience": "16+ Years",
+        "clients": "150+",
+        "projects": "2000+"
     },
     "stats": [
         {
             "id": "1",
-            "value": "20000+",
+            "value": "2000+",
             "label": "Projects Done"
         },
         {
-            "id": "2",
-            "value": "200+",
-            "label": "Current Project Activities"
-        },
-        {
             "id": "3",
-            "value": "150+",
+            "value": "100+",
             "label": "Skilled Experts"
         },
         {
             "id": "4",
-            "value": "300+",
+            "value": "150+",
             "label": "Happy Clients"
         }
     ],
@@ -42,64 +37,15 @@
         {
             "id": "1",
             "name": "Shivkumar Gurav",
-            "position": "Founder & CEO",
+            "position": "Director",
             "company": "Om India Group",
             "bio": "Visionary leader with extensive experience in industrial packaging and business development.",
             "expertise": [
                 "Business Strategy",
                 "Industry Leadership",
                 "Strategic Planning"
-            ]
-        },
-        {
-            "id": "2",
-            "name": "Priyadarshani Gurav",
-            "position": "Co-Founder & COO",
-            "company": "Om India Group",
-            "bio": "Operational excellence expert driving efficiency and quality across all business operations.",
-            "expertise": [
-                "Operations Management",
-                "Quality Control",
-                "Business Operations"
-            ]
-        }
-    ],
-    "expertTeam": [
-        {
-            "id": "3",
-            "name": "",
-            "position": "Technical Director",
-            "company": "",
-            "bio": "Coming soon - Join our growing team of packaging experts.",
-            "expertise": [],
-            "placeholder": true
-        },
-        {
-            "id": "4",
-            "name": "",
-            "position": "Sales Manager",
-            "company": "",
-            "bio": "Coming soon - Join our growing team of packaging experts.",
-            "expertise": [],
-            "placeholder": true
-        },
-        {
-            "id": "5",
-            "name": "",
-            "position": "Quality Manager",
-            "company": "",
-            "bio": "Coming soon - Join our growing team of packaging experts.",
-            "expertise": [],
-            "placeholder": true
-        },
-        {
-            "id": "6",
-            "name": "",
-            "position": "Production Manager",
-            "company": "",
-            "bio": "Coming soon - Join our growing team of packaging experts.",
-            "expertise": [],
-            "placeholder": true
+            ],
+            "image": "/team/director.png"
         }
     ]
 }

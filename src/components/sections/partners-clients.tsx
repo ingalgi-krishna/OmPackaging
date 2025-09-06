@@ -53,7 +53,7 @@ export function SlidingLogos({
                 >
                     <h2
                         className="text-3xl md:text-4xl font-bold mb-4"
-                        style={{ color: '#002B5B' }}
+                        style={{ color: '#1C2A39' }}
                     >
                         {title}
                     </h2>
@@ -119,7 +119,7 @@ export function SlidingLogos({
                     className="text-center mt-12"
                 >
                     <p className="text-gray-500">
-                        Trusted by <span style={{ color: '#002B5B' }} className="font-semibold">{data.length}+</span> companies worldwide
+                        Trusted by <span style={{ color: '#1C2A39' }} className="font-semibold">{data.length}+</span> companies worldwide
                     </p>
                 </motion.div>
             </Container>

@@ -21,7 +21,7 @@ export default function NotFound() {
                     {/* 404 Number */}
                     <motion.h1
                         className="text-8xl md:text-9xl font-bold mb-4"
-                        style={{ color: '#002B5B' }}
+                        style={{ color: '#1C2A39' }}
                         animate={{ scale: [1, 1.05, 1] }}
                         transition={{ duration: 2, repeat: Infinity }}
                     >
@@ -31,7 +31,7 @@ export default function NotFound() {
                     {/* Message */}
                     <h2
                         className="text-2xl md:text-3xl font-bold mb-4"
-                        style={{ color: '#002B5B' }}
+                        style={{ color: '#1C2A39' }}
                     >
                         Page Not Found
                     </h2>
@@ -46,8 +46,8 @@ export default function NotFound() {
                             onClick={() => router.back()}
                             className="flex items-center justify-center px-6 py-3 border-2 rounded-lg hover:bg-gray-50 transition-colors"
                             style={{
-                                borderColor: '#002B5B',
-                                color: '#002B5B'
+                                borderColor: '#1C2A39',
+                                color: '#1C2A39'
                             }}
                         >
                             <ArrowLeft size={20} className="mr-2" />
@@ -57,7 +57,7 @@ export default function NotFound() {
                         <Link
                             href="/"
                             className="flex items-center justify-center px-6 py-3 text-white rounded-lg hover:opacity-90 transition-opacity"
-                            style={{ backgroundColor: '#002B5B' }}
+                            style={{ backgroundColor: '#1C2A39' }}
                         >
                             <Home size={20} className="mr-2" />
                             Go Home

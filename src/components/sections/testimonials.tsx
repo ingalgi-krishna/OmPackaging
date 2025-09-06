@@ -29,7 +29,7 @@ export function Testimonials({ data }: TestimonialsProps) {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#002B5B' }}>
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: '#1C2A39' }}>
                         What Our Clients Say
                     </h2>
                     <p className="text-lg text-gray-700 max-w-2xl mx-auto">
@@ -51,7 +51,7 @@ export function Testimonials({ data }: TestimonialsProps) {
                                     {/* Quote Icon */}
                                     <Quote
                                         size={48}
-                                        style={{ color: '#00B0F0', opacity: 0.3 }}
+                                        style={{ color: '#00B1F1ff', opacity: 0.3 }}
                                         className="mb-4"
                                     />
 
@@ -75,11 +75,11 @@ export function Testimonials({ data }: TestimonialsProps) {
                                     <div className="flex items-center space-x-4">
                                         <div
                                             className="w-12 h-12 rounded-full flex items-center justify-center"
-                                            style={{ backgroundColor: '#002B5B20' }}
+                                            style={{ backgroundColor: '#1C2A3920' }}
                                         >
                                             <span
                                                 className="font-semibold text-lg"
-                                                style={{ color: '#002B5B' }}
+                                                style={{ color: '#1C2A39' }}
                                             >
                                                 {testimonial.name.charAt(0)}
                                             </span>
@@ -87,7 +87,7 @@ export function Testimonials({ data }: TestimonialsProps) {
                                         <div>
                                             <div
                                                 className="font-semibold"
-                                                style={{ color: '#002B5B' }}
+                                                style={{ color: '#1C2A39' }}
                                             >
                                                 {testimonial.name}
                                             </div>

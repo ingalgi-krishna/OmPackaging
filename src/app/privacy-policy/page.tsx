@@ -31,14 +31,14 @@ export default function PrivacyPolicyPage() {
                                 <strong>Last updated:</strong> {new Date().toLocaleDateString()}
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>1. Information We Collect</h2>
+                            <h2 style={{ color: '#1C2A39' }}>1. Information We Collect</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 We collect information you provide directly to us, such as when you create an account,
                                 make a purchase, request a quote, or contact us for support. This may include your name,
                                 email address, phone number, company information, and billing details.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>2. How We Use Your Information</h2>
+                            <h2 style={{ color: '#1C2A39' }}>2. How We Use Your Information</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 We use the information we collect to:
                             </p>
@@ -50,7 +50,7 @@ export default function PrivacyPolicyPage() {
                                 <li>Communicate with you about products, services, and promotional offers</li>
                             </ul>
 
-                            <h2 style={{ color: '#002B5B' }}>3. Information Sharing</h2>
+                            <h2 style={{ color: '#1C2A39' }}>3. Information Sharing</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 We do not sell, trade, or otherwise transfer your personal information to third parties
                                 without your consent, except as described in this policy. We may share your information with:
@@ -61,27 +61,27 @@ export default function PrivacyPolicyPage() {
                                 <li>Business partners for joint marketing efforts (with your consent)</li>
                             </ul>
 
-                            <h2 style={{ color: '#002B5B' }}>4. Data Security</h2>
+                            <h2 style={{ color: '#1C2A39' }}>4. Data Security</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 We implement appropriate security measures to protect your personal information against
                                 unauthorized access, alteration, disclosure, or destruction. However, no method of
                                 transmission over the internet is 100% secure.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>5. Your Rights</h2>
+                            <h2 style={{ color: '#1C2A39' }}>5. Your Rights</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 You have the right to access, update, or delete your personal information. You may also
                                 opt out of certain communications from us. To exercise these rights, please contact us
                                 using the information provided below.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>6. Contact Us</h2>
+                            <h2 style={{ color: '#1C2A39' }}>6. Contact Us</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 If you have any questions about this Privacy Policy, please contact us at:
                             </p>
                             <div
                                 className="bg-gray-50 p-6 rounded-lg mt-4"
-                                style={{ borderLeft: '4px solid #00B0F0' }}
+                                style={{ borderLeft: '4px solid #00B1F1ff' }}
                             >
                                 <p className="text-gray-700 mb-2">
                                     <strong>Om India Total Packaging Solutions</strong>

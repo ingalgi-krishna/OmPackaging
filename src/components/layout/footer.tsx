@@ -409,7 +409,7 @@ export function Footer() {
                     isFooterVisible && (
                         <motion.button
                             onClick={scrollToTop}
-                            className="fixed bottom-6 right-6 w-12 h-12 bg-[#002B5B] hover:bg-[#001a3d] border-2 border-white/20 rounded-full flex items-center justify-center shadow-2xl z-[9999] transition-all duration-300 backdrop-blur-sm"
+                            className="fixed bottom-20 right-6 w-12 h-12 bg-[#1C2A39] hover:bg-[#001a3d] border-2 border-white/20 rounded-full flex items-center justify-center shadow-2xl z-[9999] transition-all duration-300 backdrop-blur-sm"
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.8 }}
@@ -417,7 +417,7 @@ export function Footer() {
                             whileHover={{ scale: 1.1, boxShadow: "0 8px 30px rgba(0, 43, 91, 0.3)" }}
                             whileTap={{ scale: 0.95 }}
                             style={{
-                                background: "linear-gradient(135deg, #002B5B 0%, #001a3d 100%)",
+                                background: "linear-gradient(135deg, #1C2A39 0%, #001a3d 100%)",
                             }}
                         >
                             <ChevronUp size={24} className="text-white drop-shadow-sm" />

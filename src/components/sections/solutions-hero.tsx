@@ -18,7 +18,7 @@ interface SolutionsHeroProps {
 
 export function SolutionsHero({ data }: SolutionsHeroProps) {
     return (
-        <section className="section-padding bg-gradient-to-br from-[#002B5B] to-[#002B5B]/90 text-white relative overflow-hidden">
+        <section className="section-padding bg-gradient-to-br from-[#1C2A39] to-[#1C2A39]/90 text-white relative overflow-hidden">
             <div className="absolute inset-0 bg-[url('/general/pallet_manufacturing.png')] opacity-5" />
 
             <Container size="xl" className="relative z-10">
@@ -60,7 +60,7 @@ export function SolutionsHero({ data }: SolutionsHeroProps) {
                             <Button
                                 size="lg"
                                 variant="outline"
-                                className="flex items-center space-x-2 border-2 border-white text-white hover:bg-white hover:!text-[#002B5B] transition-all duration-300"
+                                className="flex items-center space-x-2 border-2 border-white text-white hover:bg-white hover:!text-[#1C2A39] transition-all duration-300"
                             >
                                 <span>Get Custom Quote</span>
                                 <ArrowRight size={18} />
@@ -70,7 +70,7 @@ export function SolutionsHero({ data }: SolutionsHeroProps) {
                         <Button
                             variant="outline"
                             size="lg"
-                            className="border-white text-white hover:bg-white hover:!text-[#002B5B]"
+                            className="border-white text-white hover:bg-white hover:!text-[#1C2A39]"
                             onClick={() => window.open('/downloads/om-india-company-profile.pdf', '_blank')}
                         >
                             <Download size={18} className="mr-2" />

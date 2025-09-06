@@ -48,14 +48,14 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         .email-container {
           max-width: 650px;
           margin: 20px auto;
-          background: #ffffff;
+          background: #FDFDFD;
           border-radius: 12px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           overflow: hidden;
         }
         
         .header {
-          background: linear-gradient(135deg, #002B5B 0%, #001a3d 100%);
+          background: linear-gradient(135deg, #1C2A39 0%, #001a3d 100%);
           color: white;
           padding: 30px 20px;
           position: relative;
@@ -83,7 +83,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         .logo-text {
           font-weight: bold;
           font-size: 20px;
-          color: #ffffff;
+          color: #FDFDFD;
           text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
         
@@ -139,7 +139,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         
         .content {
           padding: 30px;
-          background: #ffffff;
+          background: #FDFDFD;
         }
         
         .section {
@@ -147,13 +147,13 @@ export const sendContactNotification = async (contactData: ContactData): Promise
           background: #f8f9fa;
           border-radius: 8px;
           padding: 20px;
-          border-left: 4px solid #002B5B;
+          border-left: 4px solid #1C2A39;
         }
         
         .section-title {
           font-size: 18px;
           font-weight: 600;
-          color: #002B5B;
+          color: #1C2A39;
           margin-bottom: 15px;
           display: flex;
           align-items: center;
@@ -163,7 +163,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
           content: '';
           width: 6px;
           height: 6px;
-          background: #002B5B;
+          background: #1C2A39;
           border-radius: 50%;
           margin-right: 10px;
         }
@@ -184,7 +184,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         
         .info-label {
           font-weight: 600;
-          color: #002B5B;
+          color: #1C2A39;
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 0.5px;
@@ -197,7 +197,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         }
         
         .info-value a {
-          color: #002B5B;
+          color: #1C2A39;
           text-decoration: none;
           font-weight: 500;
         }
@@ -219,7 +219,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         }
         
         .footer {
-          background: linear-gradient(135deg, #002B5B 0%, #001a3d 100%);
+          background: linear-gradient(135deg, #1C2A39 0%, #001a3d 100%);
           color: white;
           padding: 20px;
           text-align: center;
@@ -362,14 +362,14 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         .email-container {
           max-width: 600px;
           margin: 20px auto;
-          background: #ffffff;
+          background: #FDFDFD;
           border-radius: 12px;
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
           overflow: hidden;
         }
         
         .header {
-          background: linear-gradient(135deg, #002B5B 0%, #001a3d 100%);
+          background: linear-gradient(135deg, #1C2A39 0%, #001a3d 100%);
           color: white;
           padding: 30px 20px;
           text-align: center;
@@ -398,7 +398,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         .logo-text {
           font-weight: bold;
           font-size: 24px;
-          color: #ffffff;
+          color: #FDFDFD;
           text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
         }
         
@@ -427,12 +427,12 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         
         .content {
           padding: 40px 30px;
-          background: #ffffff;
+          background: #FDFDFD;
         }
         
         .greeting {
           font-size: 18px;
-          color: #002B5B;
+          color: #1C2A39;
           font-weight: 600;
           margin-bottom: 20px;
         }
@@ -449,13 +449,13 @@ export const sendContactNotification = async (contactData: ContactData): Promise
           border-radius: 10px;
           padding: 25px;
           margin: 25px 0;
-          border-left: 5px solid #002B5B;
+          border-left: 5px solid #1C2A39;
         }
         
         .summary-title {
           font-size: 16px;
           font-weight: 600;
-          color: #002B5B;
+          color: #1C2A39;
           margin-bottom: 15px;
           display: flex;
           align-items: center;
@@ -479,7 +479,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         
         .summary-label {
           font-weight: 600;
-          color: #002B5B;
+          color: #1C2A39;
           font-size: 14px;
         }
         
@@ -491,7 +491,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         }
         
         .cta-section {
-          background: #002B5B;
+          background: #1C2A39;
           color: white;
           padding: 20px;
           border-radius: 8px;
@@ -510,7 +510,7 @@ export const sendContactNotification = async (contactData: ContactData): Promise
         }
         
         .footer {
-          background: linear-gradient(135deg, #002B5B 0%, #001a3d 100%);
+          background: linear-gradient(135deg, #1C2A39 0%, #001a3d 100%);
           color: white;
           padding: 25px 20px;
           text-align: center;

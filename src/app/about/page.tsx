@@ -9,7 +9,8 @@ import homeData from '@/data/home.json';
 
 export const metadata = {
     title: 'About Us - Om India',
-    description: 'Learn about our journey, mission, and the team behind Om India industrial packaging services.',
+    description:
+        'Learn about our journey, mission, and the team behind Om India industrial packaging services.',
 };
 
 export default function AboutPage() {
@@ -19,7 +20,6 @@ export default function AboutPage() {
             <MissionVision
                 mission={aboutData.mission}
                 vision={aboutData.vision}
-            // No values prop needed - it's optional now
             />
             <StatsDisplay
                 data={aboutData.stats}
@@ -36,9 +36,7 @@ export default function AboutPage() {
                 variant="default"
             />
             <TeamSection
-                boardOfDirectors={aboutData.boardOfDirectors}
-                expertTeam={aboutData.expertTeam}
-            />
+                boardOfDirectors={aboutData.boardOfDirectors} expertTeam={[]} />
         </>
     );
 }

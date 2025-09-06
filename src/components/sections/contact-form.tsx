@@ -81,8 +81,8 @@ export function ContactForm({ data }: ContactFormProps) {
         }
     };
 
-    const inputClassName = "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#002B5B] focus:border-[#002B5B] outline-none transition-colors bg-white text-gray-900";
-    const selectClassName = "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#002B5B] focus:border-[#002B5B] outline-none transition-colors bg-white text-gray-900 appearance-none cursor-pointer";
+    const inputClassName = "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2A39] focus:border-[#1C2A39] outline-none transition-colors bg-white text-gray-900";
+    const selectClassName = "w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2A39] focus:border-[#1C2A39] outline-none transition-colors bg-white text-gray-900 appearance-none cursor-pointer";
 
     return (
         <section className="py-8  bg-gray-50">
@@ -95,7 +95,7 @@ export function ContactForm({ data }: ContactFormProps) {
                 >
                     <Card className="shadow-lg max-w-4xl mx-auto">
                         <CardHeader className="pb-4">
-                            <CardTitle className="text-[#002B5B] text-xl flex items-center">
+                            <CardTitle className="text-[#1C2A39] text-xl flex items-center">
                                 <MessageSquare size={22} className="mr-2" />
                                 Send Us a Message
                             </CardTitle>
@@ -283,7 +283,7 @@ export function ContactForm({ data }: ContactFormProps) {
                                             value={formData.message}
                                             onChange={handleInputChange}
                                             rows={4}
-                                            className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#002B5B] focus:border-[#002B5B] outline-none transition-colors resize-none bg-white text-gray-900"
+                                            className="w-full px-3 py-2 text-sm border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1C2A39] focus:border-[#1C2A39] outline-none transition-colors resize-none bg-white text-gray-900"
                                             placeholder="Please provide details about your inquiry, requirements, or questions..."
                                             disabled={isSubmitting}
                                         />
@@ -307,7 +307,7 @@ export function ContactForm({ data }: ContactFormProps) {
                                         <Button
                                             type="submit"
                                             disabled={isSubmitting}
-                                            className="bg-[#002B5B] hover:bg-[#001a3d] text-white px-6 disabled:opacity-50"
+                                            className="bg-[#1C2A39] hover:bg-[#001a3d] text-white px-6 disabled:opacity-50"
                                         >
                                             {isSubmitting ? (
                                                 <div className="flex items-center">
@@ -323,8 +323,8 @@ export function ContactForm({ data }: ContactFormProps) {
                                         </Button>
                                     </div>
 
-                                    <div className="mt-3 p-2 bg-blue-50 rounded border-l-4 border-[#002B5B]">
-                                        <p className="text-xs text-[#002B5B] font-medium">
+                                    <div className="mt-3 p-2 bg-blue-50 rounded border-l-4 border-[#1C2A39]">
+                                        <p className="text-xs text-[#1C2A39] font-medium">
                                             By submitting this form, you agree to our Privacy Policy and Terms of Service.
                                         </p>
                                     </div>
@@ -345,7 +345,7 @@ export function ContactForm({ data }: ContactFormProps) {
                                     >
                                         <CheckCircle size={32} className="text-green-600" />
                                     </motion.div>
-                                    <h3 className="text-xl font-bold text-[#002B5B] mb-3">
+                                    <h3 className="text-xl font-bold text-[#1C2A39] mb-3">
                                         Message Sent Successfully!
                                     </h3>
                                     <p className="text-gray-600 mb-2 text-sm">

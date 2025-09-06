@@ -31,13 +31,13 @@ export default function TermsConditionsPage() {
                                 <strong>Last updated:</strong> {new Date().toLocaleDateString()}
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>1. Acceptance of Terms</h2>
+                            <h2 style={{ color: '#1C2A39' }}>1. Acceptance of Terms</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 By accessing and using the services of Om India Total Packaging Solutions, you accept
                                 and agree to be bound by the terms and provision of this agreement.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>2. Services</h2>
+                            <h2 style={{ color: '#1C2A39' }}>2. Services</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 Om India Total Packaging Solutions provides industrial packaging solutions including
                                 but not limited to wooden packaging, pallets, corrugated boxes, and specialized
@@ -45,7 +45,7 @@ export default function TermsConditionsPage() {
                                 business practices.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>3. Orders and Pricing</h2>
+                            <h2 style={{ color: '#1C2A39' }}>3. Orders and Pricing</h2>
                             <ul className="text-gray-700">
                                 <li>All orders are subject to acceptance by Om India Total Packaging Solutions</li>
                                 <li>Prices are subject to change without notice</li>
@@ -53,35 +53,35 @@ export default function TermsConditionsPage() {
                                 <li>Payment terms will be specified in individual agreements</li>
                             </ul>
 
-                            <h2 style={{ color: '#002B5B' }}>4. Quality and Standards</h2>
+                            <h2 style={{ color: '#1C2A39' }}>4. Quality and Standards</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 We maintain high-quality standards in all our packaging solutions. All products
                                 comply with relevant industry standards and regulations. We reserve the right to
                                 inspect and test products before delivery.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>5. Delivery and Risk</h2>
+                            <h2 style={{ color: '#1C2A39' }}>5. Delivery and Risk</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 Delivery dates are estimates and not guaranteed. Risk of loss or damage passes to
                                 the buyer upon delivery. We will make reasonable efforts to meet agreed delivery
                                 schedules but are not liable for delays beyond our control.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>6. Limitation of Liability</h2>
+                            <h2 style={{ color: '#1C2A39' }}>6. Limitation of Liability</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 Our liability is limited to the value of the goods supplied. We are not liable for
                                 indirect, consequential, or special damages arising from the use of our products
                                 or services.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>7. Intellectual Property</h2>
+                            <h2 style={{ color: '#1C2A39' }}>7. Intellectual Property</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 All intellectual property rights in our designs, processes, and documentation remain
                                 with Om India Total Packaging Solutions. Customers may not reproduce or distribute
                                 our proprietary information without written consent.
                             </p>
 
-                            <h2 style={{ color: '#002B5B' }}>8. Governing Law</h2>
+                            <h2 style={{ color: '#1C2A39' }}>8. Governing Law</h2>
                             <p className="text-gray-700 leading-relaxed">
                                 These terms are governed by the laws of India. Any disputes will be resolved through
                                 arbitration in accordance with Indian arbitration laws.
@@ -89,9 +89,9 @@ export default function TermsConditionsPage() {
 
                             <div
                                 className="bg-gray-50 p-6 rounded-lg mt-8"
-                                style={{ borderLeft: '4px solid #00B0F0' }}
+                                style={{ borderLeft: '4px solid #00B1F1ff' }}
                             >
-                                <h3 style={{ color: '#002B5B' }} className="mb-3">Contact Information</h3>
+                                <h3 style={{ color: '#1C2A39' }} className="mb-3">Contact Information</h3>
                                 <p className="text-gray-700">
                                     For questions about these terms, please contact us at hr@omindiagroups.com
                                 </p>

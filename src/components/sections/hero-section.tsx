@@ -42,7 +42,7 @@ export function HeroSection({
                     quality={85}
                 />
                 {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-[#002B5B]/95 via-[#002B5B]/85 to-picton/30" />
+                <div className="absolute inset-0 bg-gradient-to-br from-[#1C2A39]/95 via-[#1C2A39]/85 to-picton/30" />
                 {/* Pattern Overlay */}
                 <div className="absolute inset-0 bg-[url('/images/packaging-pattern.svg')] opacity-5" />
             </div>
@@ -106,7 +106,7 @@ export function HeroSection({
                             <Button
                                 variant="outline"
                                 size="lg"
-                                className="border-2 border-white/30 text-white hover:bg-white hover:text-[#002B5B] backdrop-blur-sm bg-white/10 transition-all duration-300 w-full sm:w-auto"
+                                className="border-2 border-white/30 text-white hover:bg-white hover:text-[#1C2A39] backdrop-blur-sm bg-white/10 transition-all duration-300 w-full sm:w-auto"
                             >
                                 <Play size={18} className="mr-2" />
                                 {data.secondaryCTA}
@@ -160,7 +160,7 @@ export function HeroSection({
                                 priority
                             />
                             {/* Image Overlay */}
-                            <div className="absolute inset-0 bg-gradient-to-t from-[#002B5B]/30 to-transparent" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-[#1C2A39]/30 to-transparent" />
                         </motion.div>
 
                         {/* Floating Feature Cards */}

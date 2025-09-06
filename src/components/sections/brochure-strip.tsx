@@ -60,7 +60,7 @@ export function BrochureStrip({
     };
 
     const getTextColor = () => {
-        return variant === 'minimal' ? '#002B5B' : '#FFFFFF';
+        return variant === 'minimal' ? '#1C2A39' : '#FDFDFD';
     };
 
     const getDescriptionColor = () => {
@@ -87,7 +87,7 @@ export function BrochureStrip({
                                 <FileText
                                     size={24}
                                     className="md:w-7 md:h-7 lg:w-8 lg:h-8"
-                                    style={{ color: variant === 'minimal' ? '#00B0F0' : '#FFFFFF' }}
+                                    style={{ color: variant === 'minimal' ? '#00B1F1ff' : '#FDFDFD' }}
                                 />
                             </motion.div>
                             <h3
@@ -139,8 +139,8 @@ export function BrochureStrip({
                                 }
                             `}
                             style={{
-                                backgroundColor: variant === 'minimal' ? '#00B0F0' : '#FFFFFF',
-                                color: variant === 'minimal' ? '#FFFFFF' : '#002B5B'
+                                backgroundColor: variant === 'minimal' ? '#00B1F1ff' : '#FDFDFD',
+                                color: variant === 'minimal' ? '#FDFDFD' : '#1C2A39'
                             }}
                         >
                             <Download

@@ -48,7 +48,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#002B5B]">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#1C2A39]">
                         Our Packaging Solutions
                     </h2>
                     <p className="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
@@ -58,7 +58,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                         <Button
                             variant="outline"
                             size="lg"
-                            className="flex items-center space-x-2 border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white transition-all duration-300"
+                            className="flex items-center space-x-2 border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white transition-all duration-300"
                         >
                             <span>View All Solutions</span>
                             <ArrowRight size={18} />
@@ -94,7 +94,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                                             <div className="w-12 h-12 bg-white/90 rounded-xl shadow-lg flex items-center justify-center backdrop-blur-sm">
                                                 <CategoryIcon
                                                     size={24}
-                                                    className="text-[#002B5B]"
+                                                    className="text-[#1C2A39]"
                                                 />
                                             </div>
                                         </div>
@@ -102,7 +102,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
 
                                     <CardContent className="p-6">
                                         {/* Category Title */}
-                                        <h3 className="text-xl font-semibold mb-3 text-[#002B5B] group-hover:text-picton transition-colors">
+                                        <h3 className="text-xl font-semibold mb-3 text-[#1C2A39] group-hover:text-picton transition-colors">
                                             {service.title}
                                         </h3>
 
@@ -140,7 +140,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                                         <Link href={`/solutions#${service.id}`}>
                                             <Button
                                                 variant="ghost"
-                                                className="w-full text-[#002B5B] hover:bg-[#002B5B] hover:text-white transition-all duration-300 border border-[#002B5B]/20 hover:border-[#002B5B] group-hover:shadow-md"
+                                                className="w-full text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white transition-all duration-300 border border-[#1C2A39]/20 hover:border-[#1C2A39] group-hover:shadow-md"
                                             >
                                                 Explore Solutions
                                                 <ArrowRight size={14} className="ml-2" />
@@ -159,9 +159,9 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.3 }}
-                    className="text-center mt-16 bg-[#002B5B]/5 rounded-2xl p-12"
+                    className="text-center mt-16 bg-[#1C2A39]/5 rounded-2xl p-12"
                 >
-                    <h3 className="text-2xl font-bold text-[#002B5B] mb-4">
+                    <h3 className="text-2xl font-bold text-[#1C2A39] mb-4">
                         Need Custom Packaging Solutions?
                     </h3>
                     <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
@@ -171,7 +171,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                         <Link href="/solutions">
                             <Button
                                 size="lg"
-                                className="bg-[#002B5B] hover:bg-[#002B5B]/90 text-white"
+                                className="bg-[#1C2A39] hover:bg-[#1C2A39]/90 text-white"
                             >
                                 Browse All Solutions
                             </Button>
@@ -180,7 +180,7 @@ export function ServicesHighlight({ data }: ServicesHighlightProps) {
                             <Button
                                 size="lg"
                                 variant="outline"
-                                className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                             >
                                 Request Custom Quote
                             </Button>

@@ -52,7 +52,7 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-20"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#002B5B]">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#1C2A39]">
                         Our Packaging Categories
                     </h2>
                     <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
@@ -69,7 +69,7 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                                 key={category.id}
                                 onClick={() => setSelectedCategory(category.id)}
                                 className={`flex items-center space-x-3 px-8 py-4 rounded-xl font-medium transition-all duration-300 ${selectedCategory === category.id
-                                    ? 'bg-[#002B5B] text-white shadow-lg'
+                                    ? 'bg-[#1C2A39] text-white shadow-lg'
                                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200 hover:shadow-md'
                                     }`}
                                 whileHover={{ scale: 1.05 }}
@@ -92,7 +92,7 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                         transition={{ duration: 0.4 }}
                         className="text-center mb-16"
                     >
-                        <h3 className="text-2xl font-bold mb-6 text-[#002B5B]">
+                        <h3 className="text-2xl font-bold mb-6 text-[#1C2A39]">
                             {currentCategory.title}
                         </h3>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -128,7 +128,7 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                                     <CardContent className="flex flex-col flex-grow p-8">
                                         {/* Title - Fixed height for alignment */}
                                         <div className="mb-4">
-                                            <h3 className="text-xl font-semibold text-[#002B5B] group-hover:text-picton transition-colors duration-300 min-h-[3.5rem] flex items-center leading-tight">
+                                            <h3 className="text-xl font-semibold text-[#1C2A39] group-hover:text-picton transition-colors duration-300 min-h-[3.5rem] flex items-center leading-tight">
                                                 <span className="line-clamp-2">
                                                     {service.title}
                                                 </span>
@@ -159,7 +159,7 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                                             <Link href="/contact" className="block">
                                                 <Button
                                                     size="sm"
-                                                    className="w-full bg-[#002B5B] text-white hover:bg-picton transition-all duration-300 group-hover:shadow-lg py-3 font-medium"
+                                                    className="w-full bg-[#1C2A39] text-white hover:bg-picton transition-all duration-300 group-hover:shadow-lg py-3 font-medium"
                                                 >
                                                     Get Quote
                                                     <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -179,9 +179,9 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.3 }}
-                    className="text-center mt-16 bg-[#002B5B]/5 rounded-2xl p-12"
+                    className="text-center mt-16 bg-[#1C2A39]/5 rounded-2xl p-12"
                 >
-                    <h3 className="text-2xl font-bold text-[#002B5B] mb-6">
+                    <h3 className="text-2xl font-bold text-[#1C2A39] mb-6">
                         Need Custom Packaging Solutions?
                     </h3>
                     <p className="text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -191,7 +191,7 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                         <Link href="/contact">
                             <Button
                                 size="lg"
-                                className="bg-[#002B5B] hover:bg-[#002B5B]/90 text-white px-8 py-4"
+                                className="bg-[#1C2A39] hover:bg-[#1C2A39]/90 text-white px-8 py-4"
                             >
                                 Request Custom Quote
                             </Button>
@@ -200,7 +200,7 @@ export function ServiceCategories({ data }: ServiceCategoriesProps) {
                             <Button
                                 size="lg"
                                 variant="outline"
-                                className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white px-8 py-4"
+                                className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white px-8 py-4"
                             >
                                 Learn More About Us
                             </Button>

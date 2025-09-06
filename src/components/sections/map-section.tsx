@@ -59,7 +59,7 @@ export function MapSection({ data }: MapSectionProps) {
                     transition={{ duration: 0.6 }}
                     className="text-center mb-8"
                 >
-                    <h2 className="text-2xl md:text-3xl font-bold mb-3 text-[#002B5B]">
+                    <h2 className="text-2xl md:text-3xl font-bold mb-3 text-[#1C2A39]">
                         Find Us on Map
                     </h2>
                     <p className="text-gray-700 max-w-2xl mx-auto">
@@ -79,15 +79,15 @@ export function MapSection({ data }: MapSectionProps) {
                                     viewport={{ once: true }}
                                     transition={{ duration: 0.6 }}
                                     className={`p-4 rounded-lg border cursor-pointer transition-colors ${selectedOffice.id === office.id
-                                        ? 'border-[#002B5B] bg-blue-50'
+                                        ? 'border-[#1C2A39] bg-blue-50'
                                         : 'border-gray-200 bg-white hover:border-gray-300 hover:shadow-sm'
                                         }`}
                                     onClick={() => setSelectedOffice(office)}
                                 >
                                     <div className="flex items-center justify-between mb-2">
-                                        <h3 className="font-semibold text-[#002B5B] text-sm">{office.name}</h3>
+                                        <h3 className="font-semibold text-[#1C2A39] text-sm">{office.name}</h3>
                                         <span className={`text-xs px-2 py-1 rounded-full ${office.type === 'Head Office'
-                                            ? 'bg-[#002B5B] text-white'
+                                            ? 'bg-[#1C2A39] text-white'
                                             : 'bg-gray-100 text-gray-600'
                                             }`}>
                                             {office.type}
@@ -126,7 +126,7 @@ export function MapSection({ data }: MapSectionProps) {
                                     <Button
                                         size="sm"
                                         onClick={() => openInGoogleMaps(selectedOffice)}
-                                        className="bg-white !text-[#002B5B] border border-[#002B5B] hover:bg-[#002B5B] hover:!text-white text-xs shadow-lg"
+                                        className="bg-white !text-[#1C2A39] border border-[#1C2A39] hover:bg-[#1C2A39] hover:!text-white text-xs shadow-lg"
                                     >
                                         Open in Google Maps
                                     </Button>
@@ -136,11 +136,11 @@ export function MapSection({ data }: MapSectionProps) {
                             {/* Office Details */}
                             <div className="p-5">
                                 <div className="flex items-center justify-between mb-4">
-                                    <h3 className="text-lg font-bold text-[#002B5B]">
+                                    <h3 className="text-lg font-bold text-[#1C2A39]">
                                         {selectedOffice.name}
                                     </h3>
                                     <span className={`px-2 py-1 rounded-full text-xs ${selectedOffice.type === 'Head Office'
-                                        ? 'bg-[#002B5B] text-white'
+                                        ? 'bg-[#1C2A39] text-white'
                                         : 'bg-gray-100 text-gray-600'
                                         }`}>
                                         {selectedOffice.type}
@@ -165,7 +165,7 @@ export function MapSection({ data }: MapSectionProps) {
                                             </div>
                                             <Button
                                                 size="sm"
-                                                className="bg-[#002B5B] hover:bg-[#001a3d] text-white"
+                                                className="bg-[#1C2A39] hover:bg-[#001a3d] text-white"
                                                 onClick={() => makeCall(selectedOffice.phone)}
                                             >
                                                 Call
@@ -181,7 +181,7 @@ export function MapSection({ data }: MapSectionProps) {
                                             <Button
                                                 size="sm"
                                                 variant="outline"
-                                                className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                                className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                                 onClick={() => sendEmail(selectedOffice.email)}
                                             >
                                                 Email
@@ -192,7 +192,7 @@ export function MapSection({ data }: MapSectionProps) {
                                     {selectedOffice.manager && (
                                         <div className="flex items-center space-x-3">
                                             <div className="w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                                                <User size={12} className="text-[#002B5B]" />
+                                                <User size={12} className="text-[#1C2A39]" />
                                             </div>
                                             <div>
                                                 <p className="font-medium text-gray-800 text-sm">Office Manager</p>
@@ -204,7 +204,7 @@ export function MapSection({ data }: MapSectionProps) {
                                     {selectedOffice.gst && (
                                         <div className="flex items-center space-x-3">
                                             <div className="w-5 h-5 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                                                <Hash size={12} className="text-[#002B5B]" />
+                                                <Hash size={12} className="text-[#1C2A39]" />
                                             </div>
                                             <div>
                                                 <p className="font-medium text-gray-800 text-sm">GST Number</p>
@@ -215,7 +215,7 @@ export function MapSection({ data }: MapSectionProps) {
 
                                     <div className="flex gap-3 pt-3">
                                         <Button
-                                            className="flex-1 bg-[#002B5B] hover:bg-[#001a3d] text-white"
+                                            className="flex-1 bg-[#1C2A39] hover:bg-[#001a3d] text-white"
                                             onClick={() => openInGoogleMaps(selectedOffice)}
                                         >
                                             <MapPin size={16} className="mr-2" />
@@ -223,7 +223,7 @@ export function MapSection({ data }: MapSectionProps) {
                                         </Button>
                                         <Button
                                             variant="outline"
-                                            className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                            className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                             onClick={() => makeCall(selectedOffice.phone)}
                                         >
                                             <Phone size={16} className="mr-2" />

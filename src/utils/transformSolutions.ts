@@ -26,7 +26,7 @@ export function transformSolutionsData(servicesData: Service[]): Solution[] {
         'pallet': 'Durable wooden pallets designed for efficient material handling and storage solutions.',
         'vacuum packing': 'Advanced aluminum foil vacuum packaging for corrosion protection and moisture control.',
         'vci packing': 'Volatile Corrosion Inhibitor packaging technology for metal components and machinery protection.',
-        'heat treatment': 'ISPM-15 certified heat treatment services ensuring compliance for international wooden packaging.',
+        'heat treatment': 'ISPM-15 Treatments heat treatment services ensuring compliance for international wooden packaging.',
         'fumigation': 'Professional fumigation treatment services for wooden packaging materials meeting export standards.',
         'custom': 'Tailored packaging solutions designed to meet specific customer requirements and applications.',
         'lashing': 'Professional lashing and choking services for secure load restraint during transportation.'

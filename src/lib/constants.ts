@@ -1,7 +1,7 @@
 export const BRAND_COLORS = {
-    berkeleyBlue: '#002B5B',
-    pictonBlue: '#00B0F0',
-    white: '#FFFFFF',
+    berkeleyBlue: '#1C2A39',
+    pictonBlue: '#00B1F1ff',
+    white: '#FDFDFD',
 } as const;
 
 export const COMPANY_INFO = {
@@ -38,10 +38,10 @@ export const COMPANY_INFO = {
         youtube: 'https://youtube.com/Om Indiapackaging'
     },
     stats: {
-        clients: '1000+',
-        projects: '5000+',
-        experience: '13+ Years',
-        productCategories: '50+'
+        clients: '150+',
+        projects: '2000+',
+        experience: '16+ Years',
+        productCategories: '30+'
     }
 } as const;
 

@@ -8,24 +8,24 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'berkeley': '#002B5B',
-                'picton': '#00B0F0',
-                'white': '#FFFFFF',
+                'berkeley': '#1C2A39', // Industrial navy/steel blue (primary)
+                'picton': '#00B1F1ff',   // Industrial orange accent (safety & energy)
+                'white': '#FDFDFD',    // Off-white for contrast
                 background: 'var(--background)',
                 foreground: 'var(--foreground)',
                 primary: 'var(--primary)',
                 secondary: 'var(--secondary)',
                 gray: {
-                    50: '#F9FAFB',
-                    100: '#F3F4F6',
-                    200: '#E5E7EB',
-                    300: '#D1D5DB',
-                    400: '#9CA3AF',
-                    500: '#6B7280',
-                    600: '#4B5563',
-                    700: '#374151',
-                    800: '#1F2937',
-                    900: '#111827',
+                    50: '#FAFAFA',
+                    100: '#F4F5F7',
+                    200: '#E4E7EB',
+                    300: '#CBD2D9',
+                    400: '#9AA5B1',
+                    500: '#7B8794',
+                    600: '#616E7C',
+                    700: '#52606D',
+                    800: '#3E4C59',
+                    900: '#1F2933', // Dark steel gray
                 }
             },
             fontFamily: {
@@ -51,8 +51,8 @@ module.exports = {
                     '50%': { transform: 'translateY(-10px)' },
                 },
                 glow: {
-                    '0%': { boxShadow: '0 0 20px rgba(0, 176, 240, 0.3)' },
-                    '100%': { boxShadow: '0 0 30px rgba(0, 176, 240, 0.6)' },
+                    '0%': { boxShadow: '0 0 20px rgba(242, 159, 5, 0.3)' },
+                    '100%': { boxShadow: '0 0 30px rgba(242, 159, 5, 0.6)' },
                 },
             },
         },

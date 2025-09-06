@@ -37,7 +37,7 @@ export function ApplicationProcess({ data }: ApplicationProcessProps) {
                 >
                     <h2
                         className="text-3xl md:text-4xl font-bold mb-4"
-                        style={{ color: '#002B5B' }}
+                        style={{ color: '#1C2A39' }}
                     >
                         {data.title}
                     </h2>
@@ -66,17 +66,17 @@ export function ApplicationProcess({ data }: ApplicationProcessProps) {
                                     <motion.div
                                         whileHover={{ scale: 1.05 }}
                                         className="w-24 h-24 rounded-2xl flex items-center justify-center"
-                                        style={{ backgroundColor: '#002B5B1A' }} // Lighter background for the icon
+                                        style={{ backgroundColor: '#1C2A391A' }} // Lighter background for the icon
                                     >
                                         <IconComponent
                                             size={48}
-                                            style={{ color: '#002B5B' }}
+                                            style={{ color: '#1C2A39' }}
                                         />
                                     </motion.div>
                                     {/* Step Number Badge */}
                                     <div
                                         className="absolute -top-3 -right-3 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-base border-4 border-white"
-                                        style={{ backgroundColor: '#00B0F0' }}
+                                        style={{ backgroundColor: '#00B1F1ff' }}
                                     >
                                         {step.step < 10 ? `0${step.step}` : step.step}
                                     </div>
@@ -86,7 +86,7 @@ export function ApplicationProcess({ data }: ApplicationProcessProps) {
                                 <div className="text-center">
                                     <h3
                                         className="text-xl font-semibold mb-3"
-                                        style={{ color: '#002B5B' }}
+                                        style={{ color: '#1C2A39' }}
                                     >
                                         {step.title}
                                     </h3>
@@ -98,7 +98,7 @@ export function ApplicationProcess({ data }: ApplicationProcessProps) {
                                             href={`mailto:${step.email}`}
                                             whileHover={{ scale: 1.05 }}
                                             className="inline-block px-5 py-2 rounded-lg text-white font-medium text-sm"
-                                            style={{ backgroundColor: '#002B5B' }}
+                                            style={{ backgroundColor: '#1C2A39' }}
                                         >
                                             {step.email}
                                         </motion.a>

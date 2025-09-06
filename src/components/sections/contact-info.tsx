@@ -136,7 +136,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                     {/* Address */}
                     <Card className="h-fit">
                         <CardHeader className="pb-3">
-                            <CardTitle className="flex items-center text-[#002B5B] text-lg">
+                            <CardTitle className="flex items-center text-[#1C2A39] text-lg">
                                 <MapPin size={20} className="mr-2" />
                                 Our Address
                             </CardTitle>
@@ -150,7 +150,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                             </address>
                             <Button
                                 size="sm"
-                                className="bg-[#002B5B] hover:bg-[#001a3d] text-white"
+                                className="bg-[#1C2A39] hover:bg-[#001a3d] text-white"
                                 onClick={openMap}
                             >
                                 View on Map
@@ -161,7 +161,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                     {/* Phone Numbers */}
                     <Card className="h-fit">
                         <CardHeader className="pb-3">
-                            <CardTitle className="flex items-center text-[#002B5B] text-lg">
+                            <CardTitle className="flex items-center text-[#1C2A39] text-lg">
                                 <Phone size={20} className="mr-2" />
                                 Contact Numbers
                             </CardTitle>
@@ -174,7 +174,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                                 </div>
                                 <Button
                                     size="sm"
-                                    className="bg-[#002B5B] hover:bg-[#001a3d] text-white"
+                                    className="bg-[#1C2A39] hover:bg-[#001a3d] text-white"
                                     onClick={() => makeCall(data.phone.primary)}
                                 >
                                     Call
@@ -190,7 +190,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                                     <Button
                                         size="sm"
                                         variant="outline"
-                                        className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                        className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                         onClick={() => data.phone.secondary && makeCall(data.phone.secondary)}
                                     >
                                         Call
@@ -220,7 +220,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                     {/* Email Addresses */}
                     <Card>
                         <CardHeader className="pb-3">
-                            <CardTitle className="flex items-center text-[#002B5B] text-lg">
+                            <CardTitle className="flex items-center text-[#1C2A39] text-lg">
                                 <Mail size={20} className="mr-2" />
                                 Email Us
                             </CardTitle>
@@ -235,7 +235,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                                     <Button
                                         size="sm"
                                         variant="outline"
-                                        className="border-[#002B5B] text-[#002B5B] hover:bg-[#002B5B] hover:text-white"
+                                        className="border-[#1C2A39] text-[#1C2A39] hover:bg-[#1C2A39] hover:text-white"
                                         onClick={() => sendEmail(item.email)}
                                     >
                                         Email
@@ -250,7 +250,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                         {/* Business Hours */}
                         <Card>
                             <CardHeader className="pb-3">
-                                <CardTitle className="flex items-center text-[#002B5B] text-lg">
+                                <CardTitle className="flex items-center text-[#1C2A39] text-lg">
                                     <Clock size={20} className="mr-2" />
                                     Business Hours
                                 </CardTitle>
@@ -259,8 +259,8 @@ export function ContactInfo({ data }: ContactInfoProps) {
                                 <div className="flex justify-between text-sm">
                                     <span className="text-gray-600 font-medium">{data.businessHours.weekdays}</span>
                                 </div>
-                                <div className="mt-3 p-2 bg-blue-50 rounded border-l-4 border-[#002B5B]">
-                                    <p className="text-xs text-[#002B5B] font-medium">
+                                <div className="mt-3 p-2 bg-blue-50 rounded border-l-4 border-[#1C2A39]">
+                                    <p className="text-xs text-[#1C2A39] font-medium">
                                         24/7 Emergency Support Available
                                     </p>
                                 </div>
@@ -271,7 +271,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                         {data.gst && (
                             <Card>
                                 <CardHeader className="pb-3">
-                                    <CardTitle className="text-[#002B5B] text-lg">
+                                    <CardTitle className="text-[#1C2A39] text-lg">
                                         GST Information
                                     </CardTitle>
                                 </CardHeader>
@@ -285,7 +285,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                         {/* Social Media */}
                         <Card>
                             <CardHeader className="pb-3">
-                                <CardTitle className="text-[#002B5B] text-lg">
+                                <CardTitle className="text-[#1C2A39] text-lg">
                                     Follow Us
                                 </CardTitle>
                             </CardHeader>
@@ -296,7 +296,7 @@ export function ContactInfo({ data }: ContactInfoProps) {
                                             key={index}
                                             variant="outline"
                                             size="sm"
-                                            className={`justify-start text-xs border-[#002B5B] text-[#002B5B] hover:text-white transition-colors ${social.color}`}
+                                            className={`justify-start text-xs border-[#1C2A39] text-[#1C2A39] hover:text-white transition-colors ${social.color}`}
                                             onClick={() => openSocial(social.url)}
                                         >
                                             <FontAwesomeIcon

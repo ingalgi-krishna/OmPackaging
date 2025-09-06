@@ -84,7 +84,7 @@ export function StatsDisplay({
     };
 
     const getTextColor = () => {
-        return variant === 'default' ? '#002B5B' : '#FFFFFF';
+        return variant === 'default' ? '#1C2A39' : '#FDFDFD';
     };
 
     return (
@@ -121,7 +121,8 @@ export function StatsDisplay({
                 )}
 
                 {/* Stats Grid */}
-                <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+                {/* Stats Grid */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
                     {data.map((stat, index) => {
                         const targetNumber = extractNumber(stat.value);
 
@@ -136,6 +137,7 @@ export function StatsDisplay({
                         );
                     })}
                 </div>
+
             </Container>
         </section>
     );
@@ -179,7 +181,7 @@ function StatCard({
                 <span
                     className="text-4xl md:text-5xl lg:text-6xl font-bold block"
                     style={{
-                        color: variant === 'default' ? '#00B0F0' : '#FFFFFF'
+                        color: variant === 'default' ? '#00B1F1ff' : '#FDFDFD'
                     }}
                 >
                     {formatValue(stat.value, count)}
@@ -190,7 +192,7 @@ function StatCard({
             <p
                 className="text-sm md:text-base font-medium uppercase tracking-wide"
                 style={{
-                    color: variant === 'default' ? '#002B5B' : 'rgba(255, 255, 255, 0.9)'
+                    color: variant === 'default' ? '#1C2A39' : 'rgba(255, 255, 255, 0.9)'
                 }}
             >
                 {stat.label}
@@ -200,7 +202,7 @@ function StatCard({
             <motion.div
                 className="w-12 h-1 mx-auto mt-3 rounded-full"
                 style={{
-                    backgroundColor: variant === 'default' ? '#00B0F0' : 'rgba(255, 255, 255, 0.3)'
+                    backgroundColor: variant === 'default' ? '#00B1F1ff' : 'rgba(255, 255, 255, 0.3)'
                 }}
                 initial={{ width: 0 }}
                 whileInView={{ width: 48 }}

@@ -94,12 +94,12 @@ export function CoreValues({ data }: CoreValuesProps) {
                                 >
                                     <IconComponent
                                         size={64}
-                                        style={{ color: '#002B5B' }}
+                                        style={{ color: '#1C2A39' }}
                                         strokeWidth={1.5}
                                     />
                                 </motion.div>
 
-                                <h3 className="text-xl font-semibold mb-3" style={{ color: '#002B5B' }}>
+                                <h3 className="text-xl font-semibold mb-3" style={{ color: '#1C2A39' }}>
                                     {value.title}
                                 </h3>
 

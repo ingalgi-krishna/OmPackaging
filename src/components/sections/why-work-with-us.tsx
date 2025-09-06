@@ -71,7 +71,7 @@ export function WhyWorkWithUs({ data }: WhyWorkWithUsProps) {
                                         <div className="pt-4 mb-4">
                                             <IconComponent
                                                 size={40}
-                                                style={{ color: '#002B5B' }}
+                                                style={{ color: '#1C2A39' }}
                                             />
                                         </div>
                                         <h3

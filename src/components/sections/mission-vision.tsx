@@ -38,11 +38,11 @@ export function MissionVision({ mission, vision, values }: MissionVisionProps) {
                                 <div className="flex items-center space-x-3 mb-4">
                                     <div
                                         className="w-12 h-12 rounded-lg flex items-center justify-center"
-                                        style={{ backgroundColor: '#00B0F020' }}
+                                        style={{ backgroundColor: '#00B1F1ff20' }}
                                     >
-                                        <Target style={{ color: '#00B0F0' }} size={24} />
+                                        <Target style={{ color: '#00B1F1ff' }} size={24} />
                                     </div>
-                                    <CardTitle style={{ color: '#002B5B' }}>{mission.title}</CardTitle>
+                                    <CardTitle style={{ color: '#1C2A39' }}>{mission.title}</CardTitle>
                                 </div>
                             </CardHeader>
                             <CardContent>
@@ -64,11 +64,11 @@ export function MissionVision({ mission, vision, values }: MissionVisionProps) {
                                 <div className="flex items-center space-x-3 mb-4">
                                     <div
                                         className="w-12 h-12 rounded-lg flex items-center justify-center"
-                                        style={{ backgroundColor: '#00B0F020' }}
+                                        style={{ backgroundColor: '#00B1F1ff20' }}
                                     >
-                                        <Eye style={{ color: '#00B0F0' }} size={24} />
+                                        <Eye style={{ color: '#00B1F1ff' }} size={24} />
                                     </div>
-                                    <CardTitle style={{ color: '#002B5B' }}>{vision.title}</CardTitle>
+                                    <CardTitle style={{ color: '#1C2A39' }}>{vision.title}</CardTitle>
                                 </div>
                             </CardHeader>
                             <CardContent>
@@ -92,7 +92,7 @@ export function MissionVision({ mission, vision, values }: MissionVisionProps) {
                         >
                             <h2
                                 className="text-3xl md:text-4xl font-bold mb-4"
-                                style={{ color: '#002B5B' }}
+                                style={{ color: '#1C2A39' }}
                             >
                                 Our Core Values
                             </h2>
@@ -114,13 +114,13 @@ export function MissionVision({ mission, vision, values }: MissionVisionProps) {
                                         <CardContent className="p-6 text-center">
                                             <div
                                                 className="w-12 h-12 rounded-lg flex items-center justify-center mx-auto mb-4"
-                                                style={{ backgroundColor: '#00B0F020' }}
+                                                style={{ backgroundColor: '#00B1F1ff20' }}
                                             >
-                                                <Heart style={{ color: '#00B0F0' }} size={24} />
+                                                <Heart style={{ color: '#00B1F1ff' }} size={24} />
                                             </div>
                                             <h3
                                                 className="text-lg font-semibold mb-3"
-                                                style={{ color: '#002B5B' }}
+                                                style={{ color: '#1C2A39' }}
                                             >
                                                 {value.title}
                                             </h3>
